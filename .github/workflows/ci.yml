@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'Underhive_Duel_Stage3_Alpha_Candidate*.zip'
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run automated test suite
+        run: npm test
+
+      - name: Install Chromium for browser smoke tests
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+
+      - name: Run browser smoke script
+        run: node scripts/browser-smoke.mjs
+
+      - name: Verify Docker build
+        run: docker build -t underhive-duel-ci .
+
+      - name: Verify server health endpoint
+        shell: bash
+        run: |
+          docker run --rm -d --name underhive-duel-ci-run -p 3000:3000 -e PORT=3000 underhive-duel-ci
+          trap 'docker rm -f underhive-duel-ci-run >/dev/null 2>&1 || true' EXIT
+          for i in {1..30}; do
+            if curl --fail --silent http://127.0.0.1:3000/health > /tmp/health.json; then
+              cat /tmp/health.json
+              exit 0
+            fi
+            sleep 1
+          done
+          docker logs underhive-duel-ci-run
+          exit 1
