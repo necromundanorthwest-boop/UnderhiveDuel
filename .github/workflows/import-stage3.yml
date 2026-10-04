@@ -1,0 +1,64 @@
+name: Import Stage 3 package
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Underhive_Duel_Stage3_Alpha_Candidate*.zip'
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Locate uploaded package
+        id: package
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          files=(Underhive_Duel_Stage3_Alpha_Candidate*.zip)
+          if [ "${#files[@]}" -ne 1 ]; then
+            echo "Expected exactly one Stage 3 ZIP at repository root; found ${#files[@]}." >&2
+            exit 1
+          fi
+          echo "zip=${files[0]}" >> "$GITHUB_OUTPUT"
+
+      - name: Extract reviewed Stage 3 source
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/underhive-import
+          mkdir -p /tmp/underhive-import
+          unzip -q "${{ steps.package.outputs.zip }}" -d /tmp/underhive-import
+          ROOT="/tmp/underhive-import/underhive-duel"
+          test -f "$ROOT/package.json"
+          test -f "$ROOT/Dockerfile"
+          test -f "$ROOT/server/http.js"
+          test -f "$ROOT/public/index.html"
+
+          cp "$ROOT/README.md" docs/STAGE3_PACKAGE_README.md 2>/dev/null || true
+          rsync -a --delete             --exclude '.git/'             --exclude '.github/'             --exclude 'README.md'             --exclude 'LICENSE'             --exclude 'CONTRIBUTING.md'             --exclude 'SECURITY.md'             --exclude 'render.yaml'             "$ROOT/" ./
+
+          git rm -f -- "${{ steps.package.outputs.zip }}"
+
+      - name: Commit imported source
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No import changes detected."
+            exit 0
+          fi
+          git commit -m "Import reviewed Stage 3 alpha candidate"
+          git push origin HEAD:main
