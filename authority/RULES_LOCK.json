@@ -1,0 +1,59 @@
+{
+  "rulesVersion": "0.1.0",
+  "authority": [
+    {
+      "path": "authority/AGENT_HANDOFF.md",
+      "sha256": "f95b4f6decee2dff80b1a33da4165d301856f29db031a2364064b8b1095c9301"
+    },
+    {
+      "path": "authority/BALANCE_ASSUMPTIONS.md",
+      "sha256": "fa7e941aec05796a8feea7803cb72e1cf2ebe51cbf5192588d5ffaef53328886"
+    },
+    {
+      "path": "authority/CHAMPION_ROSTER.md",
+      "sha256": "900389fe3894e90551280664a61b86de2e3595ab1ce7f2b1c4229794c31c8fe5"
+    },
+    {
+      "path": "authority/CONSISTENCY_CHECKS.md",
+      "sha256": "0641be36ea6763d9e9c29d9b3f15546c3e91567ac35bf39385ac0bcdd9c9fe50"
+    },
+    {
+      "path": "authority/GAME_RULES.md",
+      "sha256": "19850fa5d15b1abec24cb56f3c8dc6e9ea84ae3f1031952fd4fb69f1bb68a922"
+    },
+    {
+      "path": "authority/IP_SEPARATION.md",
+      "sha256": "73ed8bf144b51f3c1be16b4ed7d6d5f16fe22b92f71c3319a3b881e923055cf8"
+    },
+    {
+      "path": "authority/MATCH_STATE_MACHINE.md",
+      "sha256": "6e1b5afc47c3114a9e769415a6579472a47db9ba5333b87c5d29a14efb7feb91"
+    },
+    {
+      "path": "authority/MVP_ACCEPTANCE_CRITERIA.md",
+      "sha256": "5ab2d4765b1c3496ab89654a06221586878120f9f7a204e775ea8a0ee4a3d8c2"
+    },
+    {
+      "path": "authority/OOA_SCREENING.md",
+      "sha256": "71918dec36895f5acf2dbcd18bc1be42cbefe2129c6eb73763a4e3fd864212d5"
+    },
+    {
+      "path": "authority/README.md",
+      "sha256": "31688bda5ab6aea658119e7e44d0abc26208b4cffe2cdb0e72ecd476d68f34b9"
+    },
+    {
+      "path": "authority/RULES_GATE_REVIEW.md",
+      "sha256": "636527c89ebf8c31bd91b7deb14f1394d3a65ead49f59e49d84addb0fce0e594"
+    },
+    {
+      "path": "authority/WEAPON_RULES.md",
+      "sha256": "80618f5717ee16d30979d9df357c91758d9c937547fb59863117312c2f480225"
+    },
+    {
+      "path": "authority/champions.json",
+      "sha256": "64279daf64b2a18285a6a9860b0cac7db242047f7c20be2609d8194f884532aa"
+    }
+  ],
+  "changesPermittedDuringStage2": false,
+  "verification": "All 13 copied files byte-identical to approved Stage 1 output"
+}

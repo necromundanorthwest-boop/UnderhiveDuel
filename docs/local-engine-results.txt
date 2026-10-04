@@ -1,0 +1,39 @@
+✔ R01 private simultaneous selection, immutable champions, mirrors (2.461629ms)
+✔ R02 initiative tie and higher attacker (0.262244ms)
+✔ R03 natural 1, failure, hit, natural 6 (0.249746ms)
+✔ R04 reject normal blocking critical atomically (0.439931ms)
+✔ R05 critical Block removes exactly one normal or critical (0.479591ms)
+✔ R06 Brutal only permits critical Block (0.284207ms)
+✔ R07 Ceaseless same-face subsets; mixed rejected (0.576946ms)
+✔ R08 Balanced die cannot receive Command (0.90553ms)
+✔ R09 multi-die Command rejects before any roll or expenditure (0.624227ms)
+✔ R10 Rending promotes once after final rolls (0.453792ms)
+✔ R11 rerolling away only critical prevents Rending (0.331788ms)
+✔ R12 Lethal 5+ classifications (0.148873ms)
+✔ R13 Shock normal priority, critical fallback, once per bout (0.548664ms)
+✔ R14 Shock does not activate on critical Block (0.215684ms)
+✔ R15 empty attacker skips to defender and no empty turns (0.451048ms)
+✔ R16/R32 lethal strike ends immediately with one point, no retaliation (0.297587ms)
+✔ R17 percentage decision beats raw damage (0.10614ms)
+✔ R18 exact 50% or zero loss awards attacker (0.10658ms)
+✔ R19 bout resets wounds/flags but preserves match tokens (0.277858ms)
+✔ R20 stop immediately at 3:0 or 3:2 (0.789476ms)
+✔ R21 full frozen five-bout worked match: every row and intermediate wounds (4.370397ms)
+✔ R22 damage below half never reclassifies retained dice (0.218379ms)
+✔ R23 new second Command request cannot spend in same bout (0.318719ms)
+✔ R25 zero tokens cannot be replenished or spent (0.16004ms)
+✔ R26 free reroll + Command on another die (0.229004ms)
+✔ R27 pass preserves tokens and next-bout allowance (0.252099ms)
+✔ R28 same raw loss is not percentage tie (0.069865ms)
+✔ R29 different raw losses, same percentage: attacker (0.068222ms)
+✔ R30 exhaustive surviving states agree with independent BigInt rational oracle (5.954186ms)
+✔ R31 Command creating critical triggers Rending only after both lock (0.261764ms)
+✔ Deterministic local full match for each of all 36 champion pairs (not balance screening) (214.355524ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 318.994621

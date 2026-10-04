@@ -1,0 +1,2254 @@
+{
+  "visualVersion": "0.1.0",
+  "rulesVersion": "0.1.0",
+  "sprites": [
+    {
+      "id": "bastion",
+      "path": "assets/sprites/bastion-atlas.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "RGBA PNG",
+      "facing": "right",
+      "mirrorForOpponent": true,
+      "frames": {
+        "portrait": {
+          "rect": [
+            20,
+            117,
+            503,
+            341
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            252,
+            341
+          ],
+          "durationMs": 0
+        },
+        "idle": {
+          "rect": [
+            565,
+            104,
+            366,
+            359
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            183,
+            359
+          ],
+          "durationMs": 0
+        },
+        "strike": {
+          "rect": [
+            963,
+            125,
+            555,
+            338
+          ],
+          "foreignPixels": 1,
+          "pivot": [
+            278,
+            338
+          ],
+          "durationMs": 120,
+          "clipPolygon": [
+            [
+              262,
+              2
+            ],
+            [
+              284,
+              2
+            ],
+            [
+              546,
+              101
+            ],
+            [
+              552,
+              107
+            ],
+            [
+              552,
+              117
+            ],
+            [
+              551,
+              123
+            ],
+            [
+              548,
+              128
+            ],
+            [
+              545,
+              132
+            ],
+            [
+              537,
+              142
+            ],
+            [
+              374,
+              331
+            ],
+            [
+              371,
+              334
+            ],
+            [
+              348,
+              335
+            ],
+            [
+              14,
+              335
+            ],
+            [
+              5,
+              334
+            ],
+            [
+              2,
+              331
+            ],
+            [
+              2,
+              313
+            ],
+            [
+              15,
+              281
+            ],
+            [
+              96,
+              102
+            ],
+            [
+              98,
+              98
+            ],
+            [
+              103,
+              90
+            ],
+            [
+              107,
+              85
+            ],
+            [
+              126,
+              69
+            ],
+            [
+              135,
+              62
+            ],
+            [
+              140,
+              59
+            ],
+            [
+              169,
+              43
+            ],
+            [
+              250,
+              6
+            ]
+          ],
+          "foreignPixelsAfterClip": 1
+        },
+        "block": {
+          "rect": [
+            57,
+            512,
+            461,
+            438
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            230,
+            438
+          ],
+          "durationMs": 140
+        },
+        "hit": {
+          "rect": [
+            605,
+            582,
+            352,
+            368
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            176,
+            368
+          ],
+          "durationMs": 120
+        },
+        "defeat": {
+          "rect": [
+            986,
+            774,
+            531,
+            188
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            266,
+            188
+          ],
+          "durationMs": 0
+        }
+      },
+      "sha256": "b68c1041558a7c5d80c24e77b2f8edcdf2ce221928ed9c3d95e85b1e28fdabd5",
+      "provenance": "Original built-in image generation; 2026-10-03; atlas pixels unchanged",
+      "alphaZeroFraction": 0.6095,
+      "pivotConvention": "Bottom-centre display anchor, not gameplay location; keep common scale across poses"
+    },
+    {
+      "id": "slagjaw",
+      "path": "assets/sprites/slagjaw-atlas.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "RGBA PNG",
+      "facing": "right",
+      "mirrorForOpponent": true,
+      "frames": {
+        "portrait": {
+          "rect": [
+            18,
+            134,
+            512,
+            333
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            256,
+            333
+          ],
+          "durationMs": 0
+        },
+        "idle": {
+          "rect": [
+            557,
+            123,
+            457,
+            344
+          ],
+          "foreignPixels": 205,
+          "pivot": [
+            228,
+            344
+          ],
+          "durationMs": 0,
+          "clipPolygon": [
+            [
+              357,
+              341
+            ],
+            [
+              3,
+              341
+            ],
+            [
+              2,
+              340
+            ],
+            [
+              2,
+              326
+            ],
+            [
+              16,
+              160
+            ],
+            [
+              19,
+              125
+            ],
+            [
+              26,
+              104
+            ],
+            [
+              38,
+              75
+            ],
+            [
+              42,
+              71
+            ],
+            [
+              77,
+              45
+            ],
+            [
+              117,
+              17
+            ],
+            [
+              130,
+              9
+            ],
+            [
+              133,
+              8
+            ],
+            [
+              145,
+              5
+            ],
+            [
+              160,
+              2
+            ],
+            [
+              171,
+              2
+            ],
+            [
+              256,
+              6
+            ],
+            [
+              265,
+              9
+            ],
+            [
+              271,
+              13
+            ],
+            [
+              317,
+              48
+            ],
+            [
+              445,
+              168
+            ],
+            [
+              449,
+              172
+            ],
+            [
+              454,
+              182
+            ],
+            [
+              454,
+              198
+            ],
+            [
+              451,
+              212
+            ],
+            [
+              449,
+              221
+            ],
+            [
+              434,
+              277
+            ],
+            [
+              418,
+              314
+            ],
+            [
+              411,
+              319
+            ]
+          ],
+          "foreignPixelsAfterClip": 0
+        },
+        "strike": {
+          "rect": [
+            1004,
+            116,
+            529,
+            351
+          ],
+          "foreignPixels": 274,
+          "pivot": [
+            264,
+            351
+          ],
+          "durationMs": 120,
+          "clipPolygon": [
+            [
+              384,
+              348
+            ],
+            [
+              3,
+              348
+            ],
+            [
+              2,
+              347
+            ],
+            [
+              2,
+              332
+            ],
+            [
+              7,
+              316
+            ],
+            [
+              78,
+              103
+            ],
+            [
+              82,
+              95
+            ],
+            [
+              89,
+              84
+            ],
+            [
+              103,
+              68
+            ],
+            [
+              108,
+              63
+            ],
+            [
+              114,
+              59
+            ],
+            [
+              121,
+              55
+            ],
+            [
+              139,
+              48
+            ],
+            [
+              159,
+              45
+            ],
+            [
+              459,
+              3
+            ],
+            [
+              468,
+              2
+            ],
+            [
+              473,
+              2
+            ],
+            [
+              481,
+              6
+            ],
+            [
+              487,
+              11
+            ],
+            [
+              515,
+              75
+            ],
+            [
+              520,
+              93
+            ],
+            [
+              526,
+              123
+            ],
+            [
+              526,
+              142
+            ],
+            [
+              385,
+              347
+            ]
+          ],
+          "foreignPixelsAfterClip": 0
+        },
+        "block": {
+          "rect": [
+            29,
+            508,
+            470,
+            456
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            235,
+            456
+          ],
+          "durationMs": 140
+        },
+        "hit": {
+          "rect": [
+            558,
+            612,
+            402,
+            352
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            201,
+            352
+          ],
+          "durationMs": 120
+        },
+        "defeat": {
+          "rect": [
+            981,
+            774,
+            548,
+            188
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            274,
+            188
+          ],
+          "durationMs": 0
+        }
+      },
+      "sha256": "4b491cf509d3df04ad8b871b5471b72d689a877df3ad51f7bd1737d6d0e6e8cb",
+      "provenance": "Original built-in image generation; 2026-10-03; atlas pixels unchanged",
+      "alphaZeroFraction": 0.5654,
+      "pivotConvention": "Bottom-centre display anchor, not gameplay location; keep common scale across poses"
+    },
+    {
+      "id": "vesper",
+      "path": "assets/sprites/vesper-atlas.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "RGBA PNG",
+      "facing": "right",
+      "mirrorForOpponent": true,
+      "frames": {
+        "portrait": {
+          "rect": [
+            6,
+            57,
+            466,
+            429
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            233,
+            429
+          ],
+          "durationMs": 0
+        },
+        "idle": {
+          "rect": [
+            584,
+            38,
+            368,
+            448
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            184,
+            448
+          ],
+          "durationMs": 0
+        },
+        "strike": {
+          "rect": [
+            986,
+            132,
+            543,
+            354
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            272,
+            354
+          ],
+          "durationMs": 120
+        },
+        "block": {
+          "rect": [
+            61,
+            521,
+            396,
+            451
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            198,
+            451
+          ],
+          "durationMs": 140
+        },
+        "hit": {
+          "rect": [
+            562,
+            593,
+            385,
+            378
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            192,
+            378
+          ],
+          "durationMs": 120
+        },
+        "defeat": {
+          "rect": [
+            977,
+            815,
+            551,
+            159
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            276,
+            159
+          ],
+          "durationMs": 0
+        }
+      },
+      "sha256": "59efc2824d4d5404cc7e0c538e730a1674c4164088e964297cc5d1fd6844e292",
+      "provenance": "Original built-in image generation; 2026-10-03; atlas pixels unchanged",
+      "alphaZeroFraction": 0.6738,
+      "pivotConvention": "Bottom-centre display anchor, not gameplay location; keep common scale across poses"
+    },
+    {
+      "id": "guttermaw",
+      "path": "assets/sprites/guttermaw-atlas.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "RGBA PNG",
+      "facing": "right",
+      "mirrorForOpponent": true,
+      "frames": {
+        "portrait": {
+          "rect": [
+            22,
+            107,
+            482,
+            363
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            241,
+            363
+          ],
+          "durationMs": 0
+        },
+        "idle": {
+          "rect": [
+            535,
+            143,
+            461,
+            328
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            230,
+            328
+          ],
+          "durationMs": 0
+        },
+        "strike": {
+          "rect": [
+            1026,
+            174,
+            494,
+            298
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            247,
+            298
+          ],
+          "durationMs": 120
+        },
+        "block": {
+          "rect": [
+            30,
+            607,
+            486,
+            346
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            243,
+            346
+          ],
+          "durationMs": 140
+        },
+        "hit": {
+          "rect": [
+            542,
+            573,
+            448,
+            383
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            224,
+            383
+          ],
+          "durationMs": 120
+        },
+        "defeat": {
+          "rect": [
+            1011,
+            766,
+            511,
+            190
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            256,
+            190
+          ],
+          "durationMs": 0
+        }
+      },
+      "sha256": "69353f7ac9a1808568edf0012c89d18d69252be155d45d55c5c5aa6514e0df69",
+      "provenance": "Original built-in image generation; 2026-10-03; atlas pixels unchanged",
+      "alphaZeroFraction": 0.553,
+      "pivotConvention": "Bottom-centre display anchor, not gameplay location; keep common scale across poses"
+    },
+    {
+      "id": "rivet",
+      "path": "assets/sprites/rivet-atlas.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "RGBA PNG",
+      "facing": "right",
+      "mirrorForOpponent": true,
+      "frames": {
+        "portrait": {
+          "rect": [
+            30,
+            94,
+            455,
+            382
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            228,
+            382
+          ],
+          "durationMs": 0
+        },
+        "idle": {
+          "rect": [
+            594,
+            52,
+            290,
+            428
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            145,
+            428
+          ],
+          "durationMs": 0
+        },
+        "strike": {
+          "rect": [
+            1018,
+            126,
+            497,
+            355
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            248,
+            355
+          ],
+          "durationMs": 120
+        },
+        "block": {
+          "rect": [
+            65,
+            529,
+            378,
+            431
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            189,
+            431
+          ],
+          "durationMs": 140
+        },
+        "hit": {
+          "rect": [
+            608,
+            577,
+            351,
+            379
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            176,
+            379
+          ],
+          "durationMs": 120
+        },
+        "defeat": {
+          "rect": [
+            995,
+            800,
+            521,
+            160
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            260,
+            160
+          ],
+          "durationMs": 0
+        }
+      },
+      "sha256": "617529fae30b7566f04771ca2af754bd1347593d403bf9d9bfc5af342f11890c",
+      "provenance": "Original built-in image generation; 2026-10-03; atlas pixels unchanged",
+      "alphaZeroFraction": 0.6746,
+      "pivotConvention": "Bottom-centre display anchor, not gameplay location; keep common scale across poses"
+    },
+    {
+      "id": "cinder",
+      "path": "assets/sprites/cinder-atlas.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "RGBA PNG",
+      "facing": "right",
+      "mirrorForOpponent": true,
+      "frames": {
+        "portrait": {
+          "rect": [
+            13,
+            61,
+            494,
+            437
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            247,
+            437
+          ],
+          "durationMs": 0
+        },
+        "idle": {
+          "rect": [
+            571,
+            78,
+            342,
+            400
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            171,
+            400
+          ],
+          "durationMs": 0
+        },
+        "strike": {
+          "rect": [
+            981,
+            130,
+            545,
+            349
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            272,
+            349
+          ],
+          "durationMs": 120
+        },
+        "block": {
+          "rect": [
+            45,
+            528,
+            418,
+            434
+          ],
+          "foreignPixels": 0,
+          "pivot": [
+            209,
+            434
+          ],
+          "durationMs": 140
+        },
+        "hit": {
+          "rect": [
+            538,
+            589,
+            453,
+            373
+          ],
+          "foreignPixels": 185,
+          "pivot": [
+            226,
+            373
+          ],
+          "durationMs": 120,
+          "clipPolygon": [
+            [
+              2,
+              92
+            ],
+            [
+              2,
+              80
+            ],
+            [
+              26,
+              35
+            ],
+            [
+              29,
+              30
+            ],
+            [
+              33,
+              26
+            ],
+            [
+              64,
+              15
+            ],
+            [
+              111,
+              3
+            ],
+            [
+              121,
+              2
+            ],
+            [
+              126,
+              2
+            ],
+            [
+              312,
+              14
+            ],
+            [
+              318,
+              15
+            ],
+            [
+              322,
+              18
+            ],
+            [
+              339,
+              38
+            ],
+            [
+              441,
+              214
+            ],
+            [
+              442,
+              216
+            ],
+            [
+              450,
+              237
+            ],
+            [
+              450,
+              269
+            ],
+            [
+              441,
+              282
+            ],
+            [
+              378,
+              370
+            ],
+            [
+              74,
+              370
+            ]
+          ],
+          "foreignPixelsAfterClip": 0
+        },
+        "defeat": {
+          "rect": [
+            981,
+            799,
+            541,
+            163
+          ],
+          "foreignPixels": 353,
+          "pivot": [
+            270,
+            163
+          ],
+          "durationMs": 0,
+          "clipPolygon": [
+            [
+              202,
+              18
+            ],
+            [
+              318,
+              2
+            ],
+            [
+              328,
+              2
+            ],
+            [
+              332,
+              3
+            ],
+            [
+              340,
+              6
+            ],
+            [
+              394,
+              30
+            ],
+            [
+              505,
+              84
+            ],
+            [
+              514,
+              89
+            ],
+            [
+              518,
+              92
+            ],
+            [
+              519,
+              93
+            ],
+            [
+              523,
+              98
+            ],
+            [
+              529,
+              106
+            ],
+            [
+              533,
+              114
+            ],
+            [
+              537,
+              126
+            ],
+            [
+              538,
+              134
+            ],
+            [
+              538,
+              143
+            ],
+            [
+              537,
+              148
+            ],
+            [
+              530,
+              156
+            ],
+            [
+              526,
+              160
+            ],
+            [
+              7,
+              160
+            ],
+            [
+              2,
+              156
+            ],
+            [
+              2,
+              140
+            ],
+            [
+              7,
+              132
+            ],
+            [
+              14,
+              124
+            ],
+            [
+              22,
+              116
+            ],
+            [
+              26,
+              113
+            ],
+            [
+              51,
+              97
+            ],
+            [
+              100,
+              68
+            ],
+            [
+              175,
+              31
+            ]
+          ],
+          "foreignPixelsAfterClip": 0
+        }
+      },
+      "sha256": "d6bc3c148fc2bc711704ab4163891fcafc0352a3ad14552d50d429028289e19a",
+      "provenance": "Original built-in image generation; 2026-10-03; atlas pixels unchanged",
+      "alphaZeroFraction": 0.6143,
+      "pivotConvention": "Bottom-centre display anchor, not gameplay location; keep common scale across poses"
+    }
+  ],
+  "ui": [
+    {
+      "id": "d6-1-unresolved",
+      "path": "assets/ui/d6-1-unresolved.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 1,
+      "state": "unresolved",
+      "sha256": "ee479e5d9ca80afd9aec0078feb67f9f2e254019926594fc122bd02da3135368"
+    },
+    {
+      "id": "d6-2-unresolved",
+      "path": "assets/ui/d6-2-unresolved.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 2,
+      "state": "unresolved",
+      "sha256": "735d06c62ed45e73cd9f425c4e7b5b9714b277e906303df34a07e408fedeccca"
+    },
+    {
+      "id": "d6-3-unresolved",
+      "path": "assets/ui/d6-3-unresolved.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 3,
+      "state": "unresolved",
+      "sha256": "7cdd92b53260acbd4c7a513c386ba1ef78d6f6a64c40cbf5b20a2c424d6a515b"
+    },
+    {
+      "id": "d6-4-unresolved",
+      "path": "assets/ui/d6-4-unresolved.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 4,
+      "state": "unresolved",
+      "sha256": "49bed9e42c9093b3650c59ab1fab22ae82e1344315259c78a39c502a8a947cc3"
+    },
+    {
+      "id": "d6-5-unresolved",
+      "path": "assets/ui/d6-5-unresolved.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 5,
+      "state": "unresolved",
+      "sha256": "36e8a8aade605fc99b9b3712bb2adb39ee5990fbcea2d9ac40da292d72d427b9"
+    },
+    {
+      "id": "d6-6-unresolved",
+      "path": "assets/ui/d6-6-unresolved.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 6,
+      "state": "unresolved",
+      "sha256": "94b68a19396a6ed45c6aae6429ef529927a0b4c091ecffe7c06ac4413995588d"
+    },
+    {
+      "id": "d6-1-fail",
+      "path": "assets/ui/d6-1-fail.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 1,
+      "state": "fail",
+      "sha256": "83cde76d880289a074574793b10d4cf2fd24d69071222eba19bdcb16601a7ded"
+    },
+    {
+      "id": "d6-2-fail",
+      "path": "assets/ui/d6-2-fail.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 2,
+      "state": "fail",
+      "sha256": "0dc2b605a0b8bed8ff1be424193dc927a600072cc933d30cf11f541df9f893eb"
+    },
+    {
+      "id": "d6-3-fail",
+      "path": "assets/ui/d6-3-fail.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 3,
+      "state": "fail",
+      "sha256": "ad4fb45338dd8c12cfc58dcc793867995b3c1e76f1f54fa384e8c2fbb58f8608"
+    },
+    {
+      "id": "d6-4-fail",
+      "path": "assets/ui/d6-4-fail.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 4,
+      "state": "fail",
+      "sha256": "49697de58847f9ec0c39cb6cfdc289586ee12db3f3b7a7fb4272498760b2bed8"
+    },
+    {
+      "id": "d6-5-fail",
+      "path": "assets/ui/d6-5-fail.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 5,
+      "state": "fail",
+      "sha256": "f845bffe812d765d985370c5412c50d6f965fe8fb17c58f392447f1c189db6a0"
+    },
+    {
+      "id": "d6-6-fail",
+      "path": "assets/ui/d6-6-fail.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 6,
+      "state": "fail",
+      "sha256": "7d03920d8ae3d720843dbec81e3a24d4136fba35fa057de4ee4cf7d2d667c5ab"
+    },
+    {
+      "id": "d6-1-normal",
+      "path": "assets/ui/d6-1-normal.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 1,
+      "state": "normal",
+      "sha256": "4908ac55cc7194a80f163b6c021fbe8e6b7dcec676cd86b9c3e1ae5b8bcb3652"
+    },
+    {
+      "id": "d6-2-normal",
+      "path": "assets/ui/d6-2-normal.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 2,
+      "state": "normal",
+      "sha256": "728477f84b0ae9d3f5d62daf84876961d14db9dd9d11641cd7fae3b6d474772c"
+    },
+    {
+      "id": "d6-3-normal",
+      "path": "assets/ui/d6-3-normal.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 3,
+      "state": "normal",
+      "sha256": "7304a50fceff390c224496f0fa8b892f62f5855fcee94338df6aff56efc3a20a"
+    },
+    {
+      "id": "d6-4-normal",
+      "path": "assets/ui/d6-4-normal.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 4,
+      "state": "normal",
+      "sha256": "06e1caf0d7d47262eaa2b0a6d874c240371375693957f4842bfea1b9fb942092"
+    },
+    {
+      "id": "d6-5-normal",
+      "path": "assets/ui/d6-5-normal.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 5,
+      "state": "normal",
+      "sha256": "95dfc79e01e7007a0910435c62bdf72d3189eaacabdba71a8d204abe68e8ef93"
+    },
+    {
+      "id": "d6-6-normal",
+      "path": "assets/ui/d6-6-normal.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 6,
+      "state": "normal",
+      "sha256": "cede0e1efc1af643187b950a78b20b3eead8cb1d171a6e7985a87d491279dfc8"
+    },
+    {
+      "id": "d6-1-critical",
+      "path": "assets/ui/d6-1-critical.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 1,
+      "state": "critical",
+      "sha256": "184f71b537a544285e33648c3bcd8c8fcc98df117e415e0ec66f91b92758e0cb"
+    },
+    {
+      "id": "d6-2-critical",
+      "path": "assets/ui/d6-2-critical.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 2,
+      "state": "critical",
+      "sha256": "b6dbd11cc90153aa119494cad67d63cbc3ac2a63f86f26aac333a81bcc5e6b73"
+    },
+    {
+      "id": "d6-3-critical",
+      "path": "assets/ui/d6-3-critical.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 3,
+      "state": "critical",
+      "sha256": "5a168243a89c3462d269a709d7d5e6bc706e249ff1f6cbb186f34e00158ab85a"
+    },
+    {
+      "id": "d6-4-critical",
+      "path": "assets/ui/d6-4-critical.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 4,
+      "state": "critical",
+      "sha256": "3a85923b8af4e4a27ebf89eb736340f4ec06b286a302315d31d42dabac7992e5"
+    },
+    {
+      "id": "d6-5-critical",
+      "path": "assets/ui/d6-5-critical.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 5,
+      "state": "critical",
+      "sha256": "9d0e56d679148e1d1d4d5a1bdff8c57005a288ebd59fe2688f9a1400ad5872ce"
+    },
+    {
+      "id": "d6-6-critical",
+      "path": "assets/ui/d6-6-critical.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 6,
+      "state": "critical",
+      "sha256": "7d8296f4dbb702b5a4db2f5d67bc6899cc0377d7defaa1a012232471d499facb"
+    },
+    {
+      "id": "d6-1-rerolled",
+      "path": "assets/ui/d6-1-rerolled.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 1,
+      "state": "rerolled",
+      "sha256": "b922a452ca0ccb45a54ac056e57503a5a9719fc843dfe2ac240049debc950437"
+    },
+    {
+      "id": "d6-2-rerolled",
+      "path": "assets/ui/d6-2-rerolled.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 2,
+      "state": "rerolled",
+      "sha256": "ec317331c48a7f580d34c5fda1e7ef78dfc61b126d657898ae8550079cead88d"
+    },
+    {
+      "id": "d6-3-rerolled",
+      "path": "assets/ui/d6-3-rerolled.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 3,
+      "state": "rerolled",
+      "sha256": "7d1590dfe4d9fa14d68a4ff61e7b5dd982c84cd2bb0a994ec5277bd0e52016c2"
+    },
+    {
+      "id": "d6-4-rerolled",
+      "path": "assets/ui/d6-4-rerolled.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 4,
+      "state": "rerolled",
+      "sha256": "487a02a70e709e074e6f4455a37b59c5b93952e64f721a90359cd5ecf230b6cb"
+    },
+    {
+      "id": "d6-5-rerolled",
+      "path": "assets/ui/d6-5-rerolled.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 5,
+      "state": "rerolled",
+      "sha256": "8899ef932a713ab6f80386a159d7d5964986b02061a151266a0174ce439db79a"
+    },
+    {
+      "id": "d6-6-rerolled",
+      "path": "assets/ui/d6-6-rerolled.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 6,
+      "state": "rerolled",
+      "sha256": "ff21fed35153065398afceb79720ff4907180c71815ff5641ba30b324c4db247"
+    },
+    {
+      "id": "d6-1-blocked",
+      "path": "assets/ui/d6-1-blocked.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 1,
+      "state": "blocked",
+      "sha256": "13dcdcba795b9d2ca4323f1c3b03a966bdac7ea801a71d5e5abf058e328a13b0"
+    },
+    {
+      "id": "d6-2-blocked",
+      "path": "assets/ui/d6-2-blocked.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 2,
+      "state": "blocked",
+      "sha256": "56a740aa3d7aa633b3f003de317854ea4557f23d8a5b3005a253e9e1bf00298c"
+    },
+    {
+      "id": "d6-3-blocked",
+      "path": "assets/ui/d6-3-blocked.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 3,
+      "state": "blocked",
+      "sha256": "a8f13bd4430c48a64ea62591ccaecf7eddfc330d89cfa008cd79f24135a0ac1c"
+    },
+    {
+      "id": "d6-4-blocked",
+      "path": "assets/ui/d6-4-blocked.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 4,
+      "state": "blocked",
+      "sha256": "9e31dab2fb3478fa37b6df155d1cefb08689851f8ba1385f53fc3458bfad1925"
+    },
+    {
+      "id": "d6-5-blocked",
+      "path": "assets/ui/d6-5-blocked.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 5,
+      "state": "blocked",
+      "sha256": "8c920c948a7664b8798ab6da7a0f8760e12ea148bf1d23a8f65e50a81c55d8f5"
+    },
+    {
+      "id": "d6-6-blocked",
+      "path": "assets/ui/d6-6-blocked.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "authored exact UI geometry",
+      "face": 6,
+      "state": "blocked",
+      "sha256": "6bf8fca343e461ccf4ce4d425385b349efcb58ada2254eed47fe2300cb205626"
+    },
+    {
+      "id": "app-icon",
+      "path": "assets/ui/app-icon.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "original simple UI mark",
+      "sha256": "04aae83a8a9a534a48b74a65d85c59de2e7ecb971835e1331e461ffc34c86671"
+    },
+    {
+      "id": "overlay-rerolled",
+      "path": "assets/ui/overlay-rerolled.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "transparent composable UI marker",
+      "sha256": "f7971a811de84008be79da33d6b463a5183e520e7965f46bb00275d5437171d2"
+    },
+    {
+      "id": "overlay-selected",
+      "path": "assets/ui/overlay-selected.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "transparent composable UI marker",
+      "sha256": "4f217b9aa806037a4570d1840b33c987fb7379b638572176cd79e51983aa4b0b"
+    },
+    {
+      "id": "overlay-blocked",
+      "path": "assets/ui/overlay-blocked.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "transparent composable UI marker",
+      "sha256": "d20b6b74b1a7f9def6a56cfff15fefe052b88465fc7208a0e214be2ec8ceab44"
+    },
+    {
+      "id": "overlay-critical",
+      "path": "assets/ui/overlay-critical.svg",
+      "viewBox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "kind": "transparent composable UI marker",
+      "sha256": "271743a34c20d26e9be2c3ed6fd5b28d9e70b0df8ca6b51b48c8f8a8a4fca29c"
+    },
+    {
+      "id": "favicon-32",
+      "path": "assets/ui/favicon-32.png",
+      "width": 32,
+      "height": 32,
+      "kind": "original SVG mark raster export",
+      "sha256": "f790e61892d2b63184b73665132533ef67ef1a0b474ab399f1599fe42d831c56"
+    },
+    {
+      "id": "app-icon-192",
+      "path": "assets/ui/app-icon-192.png",
+      "width": 192,
+      "height": 192,
+      "kind": "original SVG mark raster export",
+      "sha256": "6ec0f15792fc36e84c4eff578f170bdf9fa82fa8af5a0fa31f0120bcf498c6c4"
+    },
+    {
+      "id": "app-icon-512",
+      "path": "assets/ui/app-icon-512.png",
+      "width": 512,
+      "height": 512,
+      "kind": "original SVG mark raster export",
+      "sha256": "d4aaace08e35d27e0b31ee7db63b6014c95adef9c025d37ec5cec58e190c4899"
+    }
+  ],
+  "authority": [
+    {
+      "path": "authority/AGENT_HANDOFF.md",
+      "sha256": "f95b4f6decee2dff80b1a33da4165d301856f29db031a2364064b8b1095c9301"
+    },
+    {
+      "path": "authority/BALANCE_ASSUMPTIONS.md",
+      "sha256": "fa7e941aec05796a8feea7803cb72e1cf2ebe51cbf5192588d5ffaef53328886"
+    },
+    {
+      "path": "authority/CHAMPION_ROSTER.md",
+      "sha256": "900389fe3894e90551280664a61b86de2e3595ab1ce7f2b1c4229794c31c8fe5"
+    },
+    {
+      "path": "authority/CONSISTENCY_CHECKS.md",
+      "sha256": "0641be36ea6763d9e9c29d9b3f15546c3e91567ac35bf39385ac0bcdd9c9fe50"
+    },
+    {
+      "path": "authority/GAME_RULES.md",
+      "sha256": "19850fa5d15b1abec24cb56f3c8dc6e9ea84ae3f1031952fd4fb69f1bb68a922"
+    },
+    {
+      "path": "authority/IP_SEPARATION.md",
+      "sha256": "73ed8bf144b51f3c1be16b4ed7d6d5f16fe22b92f71c3319a3b881e923055cf8"
+    },
+    {
+      "path": "authority/MATCH_STATE_MACHINE.md",
+      "sha256": "6e1b5afc47c3114a9e769415a6579472a47db9ba5333b87c5d29a14efb7feb91"
+    },
+    {
+      "path": "authority/MVP_ACCEPTANCE_CRITERIA.md",
+      "sha256": "5ab2d4765b1c3496ab89654a06221586878120f9f7a204e775ea8a0ee4a3d8c2"
+    },
+    {
+      "path": "authority/OOA_SCREENING.md",
+      "sha256": "71918dec36895f5acf2dbcd18bc1be42cbefe2129c6eb73763a4e3fd864212d5"
+    },
+    {
+      "path": "authority/README.md",
+      "sha256": "31688bda5ab6aea658119e7e44d0abc26208b4cffe2cdb0e72ecd476d68f34b9"
+    },
+    {
+      "path": "authority/RULES_GATE_REVIEW.md",
+      "sha256": "636527c89ebf8c31bd91b7deb14f1394d3a65ead49f59e49d84addb0fce0e594"
+    },
+    {
+      "path": "authority/WEAPON_RULES.md",
+      "sha256": "80618f5717ee16d30979d9df357c91758d9c937547fb59863117312c2f480225"
+    },
+    {
+      "path": "authority/champions.json",
+      "sha256": "64279daf64b2a18285a6a9860b0cac7db242047f7c20be2609d8194f884532aa"
+    }
+  ],
+  "previews": [
+    {
+      "path": "previews/competition-cover.png",
+      "role": "static visual study; not a game screenshot"
+    },
+    {
+      "path": "previews/competition-cover.svg",
+      "role": "static visual study; not a game screenshot"
+    },
+    {
+      "path": "previews/fight-desktop.png",
+      "role": "static visual study; not a game screenshot"
+    },
+    {
+      "path": "previews/fight-desktop.svg",
+      "role": "static visual study; not a game screenshot"
+    },
+    {
+      "path": "previews/fight-mobile.png",
+      "role": "static visual study; not a game screenshot"
+    },
+    {
+      "path": "previews/fight-mobile.svg",
+      "role": "static visual study; not a game screenshot"
+    },
+    {
+      "path": "previews/screen-overview.png",
+      "role": "static visual study; not a game screenshot"
+    },
+    {
+      "path": "previews/screen-overview.svg",
+      "role": "static visual study; not a game screenshot"
+    },
+    {
+      "path": "previews/silhouettes.png",
+      "role": "static visual study; not a game screenshot"
+    },
+    {
+      "path": "previews/silhouettes.svg",
+      "role": "static visual study; not a game screenshot"
+    }
+  ],
+  "previewHtml": "visual-preview.html",
+  "rulesLocked": true,
+  "runtimeBrowserQA": "Deferred to Stage 3; browser download unavailable",
+  "sourceRegions": "Measured rectangles; apply required geometric clips; preserve original PNG pixels",
+  "inventory": [
+    {
+      "path": "ACCESSIBILITY.md",
+      "bytes": 2951,
+      "sha256": "8a161a06bc563cb1a234ac84cdc673e94baf7888c142595c22ea3706b5c47b62"
+    },
+    {
+      "path": "AGENT_HANDOFF.md",
+      "bytes": 2260,
+      "sha256": "496e9a5def9a61a7d4e24c98b57a372bf791b56799719407766fa01ea132c66c"
+    },
+    {
+      "path": "COVER_CONCEPT.md",
+      "bytes": 953,
+      "sha256": "e81fe2973c219538d7e956d4a82ecd8cbf88d883c13774c354883e145e01226e"
+    },
+    {
+      "path": "DICE_AND_FEEDBACK.md",
+      "bytes": 5132,
+      "sha256": "b784255ce42e2aedee8e5b14da92207c6dd2e9997e9a4e78344547b3daa9e9ba"
+    },
+    {
+      "path": "GENERATION_PROMPTS.md",
+      "bytes": 3100,
+      "sha256": "b60b38759eee619f39a8892927b76f8b9afe60beda4935e6d4ebd1364f9daa11"
+    },
+    {
+      "path": "PIXEL_ASSET_SPEC.md",
+      "bytes": 4368,
+      "sha256": "7acb04eb5b68bf72d4aedf437e3a3c410dae85f21a768f2f5d04700bb057a96e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1267,
+      "sha256": "cf3c1d4e681f16afd23bb4d2547dbcaa5e92ca4127dbfab73c1d2bd12c35c491"
+    },
+    {
+      "path": "RESPONSIVE_BEHAVIOR.md",
+      "bytes": 2684,
+      "sha256": "28b75806087338f8c8c0f1ccd5cfa8e228bc783a0f39ca5a6c57c712205bcc31"
+    },
+    {
+      "path": "RULES_LOCK.json",
+      "bytes": 2015,
+      "sha256": "c9e2c626c5a5d1f5d8c159b83485a965d4196c2bedb6e3a3f03501c10061e0bb"
+    },
+    {
+      "path": "UI_WIREFRAMES.md",
+      "bytes": 4790,
+      "sha256": "6f6bf76868448b281f0f2440feec8a78283e8ffc85b0d7bcb3571e32bed00204"
+    },
+    {
+      "path": "VISUAL_GATE_REVIEW.md",
+      "bytes": 3505,
+      "sha256": "5cd8aa5ff157a5226503b8efda3bf9b38a4387074a398b06609bbdf00e1ae0b9"
+    },
+    {
+      "path": "VISUAL_IDENTITY.md",
+      "bytes": 4612,
+      "sha256": "6cdf9fc15cc2526a09191b6cb6d6ace292857499ba3e35dfb3b7ab4fabfa2138"
+    },
+    {
+      "path": "assets/sprites/bastion-atlas.png",
+      "bytes": 1754525,
+      "sha256": "b68c1041558a7c5d80c24e77b2f8edcdf2ce221928ed9c3d95e85b1e28fdabd5"
+    },
+    {
+      "path": "assets/sprites/cinder-atlas.png",
+      "bytes": 1763626,
+      "sha256": "d6bc3c148fc2bc711704ab4163891fcafc0352a3ad14552d50d429028289e19a"
+    },
+    {
+      "path": "assets/sprites/guttermaw-atlas.png",
+      "bytes": 1864453,
+      "sha256": "69353f7ac9a1808568edf0012c89d18d69252be155d45d55c5c5aa6514e0df69"
+    },
+    {
+      "path": "assets/sprites/rivet-atlas.png",
+      "bytes": 1731588,
+      "sha256": "617529fae30b7566f04771ca2af754bd1347593d403bf9d9bfc5af342f11890c"
+    },
+    {
+      "path": "assets/sprites/slagjaw-atlas.png",
+      "bytes": 1850562,
+      "sha256": "4b491cf509d3df04ad8b871b5471b72d689a877df3ad51f7bd1737d6d0e6e8cb"
+    },
+    {
+      "path": "assets/sprites/vesper-atlas.png",
+      "bytes": 1863294,
+      "sha256": "59efc2824d4d5404cc7e0c538e730a1674c4164088e964297cc5d1fd6844e292"
+    },
+    {
+      "path": "assets/ui/app-icon-192.png",
+      "bytes": 772,
+      "sha256": "6ec0f15792fc36e84c4eff578f170bdf9fa82fa8af5a0fa31f0120bcf498c6c4"
+    },
+    {
+      "path": "assets/ui/app-icon-512.png",
+      "bytes": 2393,
+      "sha256": "d4aaace08e35d27e0b31ee7db63b6014c95adef9c025d37ec5cec58e190c4899"
+    },
+    {
+      "path": "assets/ui/app-icon.svg",
+      "bytes": 315,
+      "sha256": "04aae83a8a9a534a48b74a65d85c59de2e7ecb971835e1331e461ffc34c86671"
+    },
+    {
+      "path": "assets/ui/d6-1-blocked.svg",
+      "bytes": 329,
+      "sha256": "13dcdcba795b9d2ca4323f1c3b03a966bdac7ea801a71d5e5abf058e328a13b0"
+    },
+    {
+      "path": "assets/ui/d6-1-critical.svg",
+      "bytes": 345,
+      "sha256": "184f71b537a544285e33648c3bcd8c8fcc98df117e415e0ec66f91b92758e0cb"
+    },
+    {
+      "path": "assets/ui/d6-1-fail.svg",
+      "bytes": 326,
+      "sha256": "83cde76d880289a074574793b10d4cf2fd24d69071222eba19bdcb16601a7ded"
+    },
+    {
+      "path": "assets/ui/d6-1-normal.svg",
+      "bytes": 272,
+      "sha256": "4908ac55cc7194a80f163b6c021fbe8e6b7dcec676cd86b9c3e1ae5b8bcb3652"
+    },
+    {
+      "path": "assets/ui/d6-1-rerolled.svg",
+      "bytes": 324,
+      "sha256": "b922a452ca0ccb45a54ac056e57503a5a9719fc843dfe2ac240049debc950437"
+    },
+    {
+      "path": "assets/ui/d6-1-unresolved.svg",
+      "bytes": 276,
+      "sha256": "ee479e5d9ca80afd9aec0078feb67f9f2e254019926594fc122bd02da3135368"
+    },
+    {
+      "path": "assets/ui/d6-2-blocked.svg",
+      "bytes": 384,
+      "sha256": "56a740aa3d7aa633b3f003de317854ea4557f23d8a5b3005a253e9e1bf00298c"
+    },
+    {
+      "path": "assets/ui/d6-2-critical.svg",
+      "bytes": 400,
+      "sha256": "b6dbd11cc90153aa119494cad67d63cbc3ac2a63f86f26aac333a81bcc5e6b73"
+    },
+    {
+      "path": "assets/ui/d6-2-fail.svg",
+      "bytes": 381,
+      "sha256": "0dc2b605a0b8bed8ff1be424193dc927a600072cc933d30cf11f541df9f893eb"
+    },
+    {
+      "path": "assets/ui/d6-2-normal.svg",
+      "bytes": 327,
+      "sha256": "728477f84b0ae9d3f5d62daf84876961d14db9dd9d11641cd7fae3b6d474772c"
+    },
+    {
+      "path": "assets/ui/d6-2-rerolled.svg",
+      "bytes": 379,
+      "sha256": "ec317331c48a7f580d34c5fda1e7ef78dfc61b126d657898ae8550079cead88d"
+    },
+    {
+      "path": "assets/ui/d6-2-unresolved.svg",
+      "bytes": 331,
+      "sha256": "735d06c62ed45e73cd9f425c4e7b5b9714b277e906303df34a07e408fedeccca"
+    },
+    {
+      "path": "assets/ui/d6-3-blocked.svg",
+      "bytes": 441,
+      "sha256": "a8f13bd4430c48a64ea62591ccaecf7eddfc330d89cfa008cd79f24135a0ac1c"
+    },
+    {
+      "path": "assets/ui/d6-3-critical.svg",
+      "bytes": 457,
+      "sha256": "5a168243a89c3462d269a709d7d5e6bc706e249ff1f6cbb186f34e00158ab85a"
+    },
+    {
+      "path": "assets/ui/d6-3-fail.svg",
+      "bytes": 438,
+      "sha256": "ad4fb45338dd8c12cfc58dcc793867995b3c1e76f1f54fa384e8c2fbb58f8608"
+    },
+    {
+      "path": "assets/ui/d6-3-normal.svg",
+      "bytes": 384,
+      "sha256": "7304a50fceff390c224496f0fa8b892f62f5855fcee94338df6aff56efc3a20a"
+    },
+    {
+      "path": "assets/ui/d6-3-rerolled.svg",
+      "bytes": 436,
+      "sha256": "7d1590dfe4d9fa14d68a4ff61e7b5dd982c84cd2bb0a994ec5277bd0e52016c2"
+    },
+    {
+      "path": "assets/ui/d6-3-unresolved.svg",
+      "bytes": 388,
+      "sha256": "7cdd92b53260acbd4c7a513c386ba1ef78d6f6a64c40cbf5b20a2c424d6a515b"
+    },
+    {
+      "path": "assets/ui/d6-4-blocked.svg",
+      "bytes": 496,
+      "sha256": "9e31dab2fb3478fa37b6df155d1cefb08689851f8ba1385f53fc3458bfad1925"
+    },
+    {
+      "path": "assets/ui/d6-4-critical.svg",
+      "bytes": 512,
+      "sha256": "3a85923b8af4e4a27ebf89eb736340f4ec06b286a302315d31d42dabac7992e5"
+    },
+    {
+      "path": "assets/ui/d6-4-fail.svg",
+      "bytes": 493,
+      "sha256": "49697de58847f9ec0c39cb6cfdc289586ee12db3f3b7a7fb4272498760b2bed8"
+    },
+    {
+      "path": "assets/ui/d6-4-normal.svg",
+      "bytes": 439,
+      "sha256": "06e1caf0d7d47262eaa2b0a6d874c240371375693957f4842bfea1b9fb942092"
+    },
+    {
+      "path": "assets/ui/d6-4-rerolled.svg",
+      "bytes": 491,
+      "sha256": "487a02a70e709e074e6f4455a37b59c5b93952e64f721a90359cd5ecf230b6cb"
+    },
+    {
+      "path": "assets/ui/d6-4-unresolved.svg",
+      "bytes": 443,
+      "sha256": "49bed9e42c9093b3650c59ab1fab22ae82e1344315259c78a39c502a8a947cc3"
+    },
+    {
+      "path": "assets/ui/d6-5-blocked.svg",
+      "bytes": 553,
+      "sha256": "8c920c948a7664b8798ab6da7a0f8760e12ea148bf1d23a8f65e50a81c55d8f5"
+    },
+    {
+      "path": "assets/ui/d6-5-critical.svg",
+      "bytes": 569,
+      "sha256": "9d0e56d679148e1d1d4d5a1bdff8c57005a288ebd59fe2688f9a1400ad5872ce"
+    },
+    {
+      "path": "assets/ui/d6-5-fail.svg",
+      "bytes": 550,
+      "sha256": "f845bffe812d765d985370c5412c50d6f965fe8fb17c58f392447f1c189db6a0"
+    },
+    {
+      "path": "assets/ui/d6-5-normal.svg",
+      "bytes": 496,
+      "sha256": "95dfc79e01e7007a0910435c62bdf72d3189eaacabdba71a8d204abe68e8ef93"
+    },
+    {
+      "path": "assets/ui/d6-5-rerolled.svg",
+      "bytes": 548,
+      "sha256": "8899ef932a713ab6f80386a159d7d5964986b02061a151266a0174ce439db79a"
+    },
+    {
+      "path": "assets/ui/d6-5-unresolved.svg",
+      "bytes": 500,
+      "sha256": "36e8a8aade605fc99b9b3712bb2adb39ee5990fbcea2d9ac40da292d72d427b9"
+    },
+    {
+      "path": "assets/ui/d6-6-blocked.svg",
+      "bytes": 609,
+      "sha256": "6bf8fca343e461ccf4ce4d425385b349efcb58ada2254eed47fe2300cb205626"
+    },
+    {
+      "path": "assets/ui/d6-6-critical.svg",
+      "bytes": 625,
+      "sha256": "7d8296f4dbb702b5a4db2f5d67bc6899cc0377d7defaa1a012232471d499facb"
+    },
+    {
+      "path": "assets/ui/d6-6-fail.svg",
+      "bytes": 606,
+      "sha256": "7d03920d8ae3d720843dbec81e3a24d4136fba35fa057de4ee4cf7d2d667c5ab"
+    },
+    {
+      "path": "assets/ui/d6-6-normal.svg",
+      "bytes": 552,
+      "sha256": "cede0e1efc1af643187b950a78b20b3eead8cb1d171a6e7985a87d491279dfc8"
+    },
+    {
+      "path": "assets/ui/d6-6-rerolled.svg",
+      "bytes": 604,
+      "sha256": "ff21fed35153065398afceb79720ff4907180c71815ff5641ba30b324c4db247"
+    },
+    {
+      "path": "assets/ui/d6-6-unresolved.svg",
+      "bytes": 556,
+      "sha256": "94b68a19396a6ed45c6aae6429ef529927a0b4c091ecffe7c06ac4413995588d"
+    },
+    {
+      "path": "assets/ui/favicon-32.png",
+      "bytes": 265,
+      "sha256": "f790e61892d2b63184b73665132533ef67ef1a0b474ab399f1599fe42d831c56"
+    },
+    {
+      "path": "assets/ui/overlay-blocked.svg",
+      "bytes": 182,
+      "sha256": "d20b6b74b1a7f9def6a56cfff15fefe052b88465fc7208a0e214be2ec8ceab44"
+    },
+    {
+      "path": "assets/ui/overlay-critical.svg",
+      "bytes": 198,
+      "sha256": "271743a34c20d26e9be2c3ed6fd5b28d9e70b0df8ca6b51b48c8f8a8a4fca29c"
+    },
+    {
+      "path": "assets/ui/overlay-rerolled.svg",
+      "bytes": 177,
+      "sha256": "f7971a811de84008be79da33d6b463a5183e520e7965f46bb00275d5437171d2"
+    },
+    {
+      "path": "assets/ui/overlay-selected.svg",
+      "bytes": 223,
+      "sha256": "4f217b9aa806037a4570d1840b33c987fb7379b638572176cd79e51983aa4b0b"
+    },
+    {
+      "path": "assets/ui/tokens.css",
+      "bytes": 424,
+      "sha256": "c507b11eca83402feb0a528c4ad14718fdd3a5cd89ab57480e80af8cacf9db22"
+    },
+    {
+      "path": "authority/AGENT_HANDOFF.md",
+      "bytes": 2053,
+      "sha256": "f95b4f6decee2dff80b1a33da4165d301856f29db031a2364064b8b1095c9301"
+    },
+    {
+      "path": "authority/BALANCE_ASSUMPTIONS.md",
+      "bytes": 6964,
+      "sha256": "fa7e941aec05796a8feea7803cb72e1cf2ebe51cbf5192588d5ffaef53328886"
+    },
+    {
+      "path": "authority/CHAMPION_ROSTER.md",
+      "bytes": 2125,
+      "sha256": "900389fe3894e90551280664a61b86de2e3595ab1ce7f2b1c4229794c31c8fe5"
+    },
+    {
+      "path": "authority/CONSISTENCY_CHECKS.md",
+      "bytes": 2174,
+      "sha256": "0641be36ea6763d9e9c29d9b3f15546c3e91567ac35bf39385ac0bcdd9c9fe50"
+    },
+    {
+      "path": "authority/GAME_RULES.md",
+      "bytes": 8665,
+      "sha256": "19850fa5d15b1abec24cb56f3c8dc6e9ea84ae3f1031952fd4fb69f1bb68a922"
+    },
+    {
+      "path": "authority/IP_SEPARATION.md",
+      "bytes": 2777,
+      "sha256": "73ed8bf144b51f3c1be16b4ed7d6d5f16fe22b92f71c3319a3b881e923055cf8"
+    },
+    {
+      "path": "authority/MATCH_STATE_MACHINE.md",
+      "bytes": 5871,
+      "sha256": "6e1b5afc47c3114a9e769415a6579472a47db9ba5333b87c5d29a14efb7feb91"
+    },
+    {
+      "path": "authority/MVP_ACCEPTANCE_CRITERIA.md",
+      "bytes": 6553,
+      "sha256": "5ab2d4765b1c3496ab89654a06221586878120f9f7a204e775ea8a0ee4a3d8c2"
+    },
+    {
+      "path": "authority/OOA_SCREENING.md",
+      "bytes": 3529,
+      "sha256": "71918dec36895f5acf2dbcd18bc1be42cbefe2129c6eb73763a4e3fd864212d5"
+    },
+    {
+      "path": "authority/README.md",
+      "bytes": 876,
+      "sha256": "31688bda5ab6aea658119e7e44d0abc26208b4cffe2cdb0e72ecd476d68f34b9"
+    },
+    {
+      "path": "authority/RULES_GATE_REVIEW.md",
+      "bytes": 2344,
+      "sha256": "636527c89ebf8c31bd91b7deb14f1394d3a65ead49f59e49d84addb0fce0e594"
+    },
+    {
+      "path": "authority/WEAPON_RULES.md",
+      "bytes": 4666,
+      "sha256": "80618f5717ee16d30979d9df357c91758d9c937547fb59863117312c2f480225"
+    },
+    {
+      "path": "authority/champions.json",
+      "bytes": 1935,
+      "sha256": "64279daf64b2a18285a6a9860b0cac7db242047f7c20be2609d8194f884532aa"
+    },
+    {
+      "path": "previews/competition-cover.png",
+      "bytes": 347485,
+      "sha256": "0d6fe97fab633c20f6e7f58fe3b598a879a43ab6a02c0f5408955d5c0f12b8be"
+    },
+    {
+      "path": "previews/competition-cover.svg",
+      "bytes": 2249,
+      "sha256": "d72ddd9910b90c1be280b143e888d974641dd73ab3e8a36ff055d5bab7d2a77b"
+    },
+    {
+      "path": "previews/fight-desktop.png",
+      "bytes": 216066,
+      "sha256": "f8930044a5abf723df3e751f60fa3510a41b577a86e177ce2b4a56a6f60c8677"
+    },
+    {
+      "path": "previews/fight-desktop.svg",
+      "bytes": 6717,
+      "sha256": "dc370f74f6d44d881496c4cffa28db33e75d9bf3f6ec528c90e3f23135ca7697"
+    },
+    {
+      "path": "previews/fight-mobile.png",
+      "bytes": 119020,
+      "sha256": "7cb567f6054e48cdb4469208ec52cb9cbcf985634ce2760e7e5b5dab9f58196f"
+    },
+    {
+      "path": "previews/fight-mobile.svg",
+      "bytes": 6892,
+      "sha256": "582621961dc34724b7f8420c0776bbd83416bad8e9dee13e05e16e972dd61166"
+    },
+    {
+      "path": "previews/screen-overview.png",
+      "bytes": 293013,
+      "sha256": "97501276e5a5a37ef832cbcaa56a7b9971a4d75b9d9037ac10b26d7f2ec89d1c"
+    },
+    {
+      "path": "previews/screen-overview.svg",
+      "bytes": 9591,
+      "sha256": "cca601b203db14516979e8a7e28e23028adbf162ecbba54fdac5b39f1c1fd906"
+    },
+    {
+      "path": "previews/silhouettes.png",
+      "bytes": 117543,
+      "sha256": "6e8e7b23f55726fbec5d94f39000ec2f098e4f490d6b82898c9413701b00e939"
+    },
+    {
+      "path": "previews/silhouettes.svg",
+      "bytes": 3531,
+      "sha256": "8e3e9abb5d1b8589f6632c25986a3cb482dadd6860521107886e542d889c603a"
+    },
+    {
+      "path": "visual-preview.html",
+      "bytes": 35610,
+      "sha256": "b33cc8bae94ab82ec844f2148ad9fdf39e297f1dc8dc76fbeec2f89497921572"
+    }
+  ]
+}

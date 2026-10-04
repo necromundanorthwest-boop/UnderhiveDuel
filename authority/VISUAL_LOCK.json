@@ -1,0 +1,15 @@
+{
+  "rulesVersion": "0.1.0",
+  "visualVersion": "0.1.0",
+  "arena": "Foundry Background Study",
+  "files": [
+    {
+      "path": "public/ASSET_MANIFEST.json",
+      "sha256": "42db8376b1d9c4fd07435f7a9c15f9e2ee0fc994b067d60a3db5087367579d24"
+    },
+    {
+      "path": "public/assets/foundry-background.png",
+      "sha256": "8c028dcc505b82dffce0db7a1ea81769af708487c42f134c4e011ec5fdccb90b"
+    }
+  ]
+}

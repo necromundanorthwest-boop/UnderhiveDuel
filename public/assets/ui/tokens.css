@@ -1,0 +1,4 @@
+:root{--ud-void:#101419;--ud-panel:#1c252c;--ud-raised:#29353d;--ud-line:#78909c;--ud-bone:#f2e9d7;--ud-muted:#bec9cc;--ud-amber:#ffca70;--ud-cyan:#86dbe8;--ud-coral:#ff9b89;--ud-ink:#101419;}
+/* Primary text uses bone; actions use ink on amber. Keep gameplay text in DOM. */
+.sprite{image-rendering:pixelated}
+@media(prefers-reduced-motion:reduce){.sprite,.impact,.dice{animation:none!important;transition:none!important}}
