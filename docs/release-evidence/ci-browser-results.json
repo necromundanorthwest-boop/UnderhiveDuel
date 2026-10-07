@@ -1,0 +1,2595 @@
+{
+  "status": "PASS",
+  "started": "2026-10-07T06:01:10.471Z",
+  "sourceCommit": "ead17031d24b4df58c0e815c300e34dad9c1cdf3",
+  "origin": "http://127.0.0.1:44059",
+  "deviceType": "two isolated browser contexts, desktop and touch mobile emulation",
+  "viewports": [
+    {
+      "width": 320,
+      "screen": "entry",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "screen": "entry",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "screen": "entry",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "screen": "entry",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "screen": "lobby",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "screen": "lobby",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "screen": "lobby",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "screen": "lobby",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "screen": "selection",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "screen": "selection",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "screen": "selection",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "screen": "selection",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "screen": "fight",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "screen": "fight",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "screen": "fight",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "screen": "fight",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "screen": "weapon_reroll",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "screen": "weapon_reroll",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "screen": "weapon_reroll",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "screen": "weapon_reroll",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "screen": "command_reroll",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "screen": "command_reroll",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "screen": "command_reroll",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "screen": "command_reroll",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "screen": "resolve",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "screen": "resolve",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "screen": "resolve",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "screen": "resolve",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "screen": "paused",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "screen": "paused",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "screen": "paused",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "screen": "paused",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "screen": "connection-error",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "screen": "connection-error",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "screen": "connection-error",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "screen": "connection-error",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "screen": "bout_result",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "screen": "bout_result",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "screen": "bout_result",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "screen": "bout_result",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "screen": "match_result",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "screen": "match_result",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "screen": "match_result",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "screen": "match_result",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "screen": "result",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "screen": "result",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "screen": "result",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "screen": "result",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "screen": "rematch",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "screen": "rematch",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "screen": "rematch",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "screen": "rematch",
+      "pass": true
+    }
+  ],
+  "matches": [
+    {
+      "champions": [
+        "bastion",
+        "slagjaw"
+      ],
+      "score": [
+        3,
+        2
+      ],
+      "bouts": 5,
+      "synchronized": true
+    },
+    {
+      "champions": [
+        "shadowlurker",
+        "votive"
+      ],
+      "score": [
+        3,
+        0
+      ],
+      "bouts": 3,
+      "synchronized": true
+    },
+    {
+      "champions": [
+        "votive",
+        "shadowlurker"
+      ],
+      "score": [
+        3,
+        2
+      ],
+      "bouts": 5,
+      "synchronized": true
+    },
+    {
+      "champions": [
+        "pitjack",
+        "ironhaul"
+      ],
+      "score": [
+        0,
+        3
+      ],
+      "bouts": 3,
+      "synchronized": true
+    },
+    {
+      "champions": [
+        "ironhaul",
+        "pitjack"
+      ],
+      "score": [
+        1,
+        3
+      ],
+      "bouts": 4,
+      "synchronized": true
+    },
+    {
+      "champions": [
+        "pitjack",
+        "pitjack"
+      ],
+      "score": [
+        1,
+        3
+      ],
+      "bouts": 4,
+      "synchronized": true
+    }
+  ],
+  "errors": [],
+  "sprites": {
+    "status": "PASS",
+    "uniqueStates": 60,
+    "orientations": 2,
+    "frames": [
+      {
+        "champion": "bastion",
+        "pose": "portrait",
+        "mirror": false,
+        "opaque": 19224,
+        "edgePixels": 0
+      },
+      {
+        "champion": "bastion",
+        "pose": "idle",
+        "mirror": false,
+        "opaque": 16977,
+        "edgePixels": 0
+      },
+      {
+        "champion": "bastion",
+        "pose": "strike",
+        "mirror": false,
+        "opaque": 8078,
+        "edgePixels": 0
+      },
+      {
+        "champion": "bastion",
+        "pose": "block",
+        "mirror": false,
+        "opaque": 11975,
+        "edgePixels": 0
+      },
+      {
+        "champion": "bastion",
+        "pose": "hit",
+        "mirror": false,
+        "opaque": 14113,
+        "edgePixels": 0
+      },
+      {
+        "champion": "bastion",
+        "pose": "defeat",
+        "mirror": false,
+        "opaque": 7486,
+        "edgePixels": 0
+      },
+      {
+        "champion": "slagjaw",
+        "pose": "portrait",
+        "mirror": false,
+        "opaque": 19199,
+        "edgePixels": 0
+      },
+      {
+        "champion": "slagjaw",
+        "pose": "idle",
+        "mirror": false,
+        "opaque": 18272,
+        "edgePixels": 0
+      },
+      {
+        "champion": "slagjaw",
+        "pose": "strike",
+        "mirror": false,
+        "opaque": 11420,
+        "edgePixels": 0
+      },
+      {
+        "champion": "slagjaw",
+        "pose": "block",
+        "mirror": false,
+        "opaque": 14627,
+        "edgePixels": 0
+      },
+      {
+        "champion": "slagjaw",
+        "pose": "hit",
+        "mirror": false,
+        "opaque": 20033,
+        "edgePixels": 0
+      },
+      {
+        "champion": "slagjaw",
+        "pose": "defeat",
+        "mirror": false,
+        "opaque": 7929,
+        "edgePixels": 0
+      },
+      {
+        "champion": "vesper",
+        "pose": "portrait",
+        "mirror": false,
+        "opaque": 19316,
+        "edgePixels": 0
+      },
+      {
+        "champion": "vesper",
+        "pose": "idle",
+        "mirror": false,
+        "opaque": 7283,
+        "edgePixels": 0
+      },
+      {
+        "champion": "vesper",
+        "pose": "strike",
+        "mirror": false,
+        "opaque": 5930,
+        "edgePixels": 0
+      },
+      {
+        "champion": "vesper",
+        "pose": "block",
+        "mirror": false,
+        "opaque": 7753,
+        "edgePixels": 0
+      },
+      {
+        "champion": "vesper",
+        "pose": "hit",
+        "mirror": false,
+        "opaque": 10269,
+        "edgePixels": 0
+      },
+      {
+        "champion": "vesper",
+        "pose": "defeat",
+        "mirror": false,
+        "opaque": 4973,
+        "edgePixels": 0
+      },
+      {
+        "champion": "guttermaw",
+        "pose": "portrait",
+        "mirror": false,
+        "opaque": 19682,
+        "edgePixels": 0
+      },
+      {
+        "champion": "guttermaw",
+        "pose": "idle",
+        "mirror": false,
+        "opaque": 14516,
+        "edgePixels": 0
+      },
+      {
+        "champion": "guttermaw",
+        "pose": "strike",
+        "mirror": false,
+        "opaque": 11267,
+        "edgePixels": 0
+      },
+      {
+        "champion": "guttermaw",
+        "pose": "block",
+        "mirror": false,
+        "opaque": 13931,
+        "edgePixels": 0
+      },
+      {
+        "champion": "guttermaw",
+        "pose": "hit",
+        "mirror": false,
+        "opaque": 16067,
+        "edgePixels": 0
+      },
+      {
+        "champion": "guttermaw",
+        "pose": "defeat",
+        "mirror": false,
+        "opaque": 7928,
+        "edgePixels": 0
+      },
+      {
+        "champion": "rivet",
+        "pose": "portrait",
+        "mirror": false,
+        "opaque": 18506,
+        "edgePixels": 0
+      },
+      {
+        "champion": "rivet",
+        "pose": "idle",
+        "mirror": false,
+        "opaque": 10637,
+        "edgePixels": 0
+      },
+      {
+        "champion": "rivet",
+        "pose": "strike",
+        "mirror": false,
+        "opaque": 10116,
+        "edgePixels": 0
+      },
+      {
+        "champion": "rivet",
+        "pose": "block",
+        "mirror": false,
+        "opaque": 11081,
+        "edgePixels": 0
+      },
+      {
+        "champion": "rivet",
+        "pose": "hit",
+        "mirror": false,
+        "opaque": 13911,
+        "edgePixels": 0
+      },
+      {
+        "champion": "rivet",
+        "pose": "defeat",
+        "mirror": false,
+        "opaque": 6834,
+        "edgePixels": 0
+      },
+      {
+        "champion": "cinder",
+        "pose": "portrait",
+        "mirror": false,
+        "opaque": 17005,
+        "edgePixels": 0
+      },
+      {
+        "champion": "cinder",
+        "pose": "idle",
+        "mirror": false,
+        "opaque": 12702,
+        "edgePixels": 0
+      },
+      {
+        "champion": "cinder",
+        "pose": "strike",
+        "mirror": false,
+        "opaque": 9265,
+        "edgePixels": 0
+      },
+      {
+        "champion": "cinder",
+        "pose": "block",
+        "mirror": false,
+        "opaque": 13248,
+        "edgePixels": 0
+      },
+      {
+        "champion": "cinder",
+        "pose": "hit",
+        "mirror": false,
+        "opaque": 14469,
+        "edgePixels": 0
+      },
+      {
+        "champion": "cinder",
+        "pose": "defeat",
+        "mirror": false,
+        "opaque": 6612,
+        "edgePixels": 0
+      },
+      {
+        "champion": "shadowlurker",
+        "pose": "portrait",
+        "mirror": false,
+        "opaque": 20409,
+        "edgePixels": 0
+      },
+      {
+        "champion": "shadowlurker",
+        "pose": "idle",
+        "mirror": false,
+        "opaque": 10942,
+        "edgePixels": 0
+      },
+      {
+        "champion": "shadowlurker",
+        "pose": "strike",
+        "mirror": false,
+        "opaque": 7594,
+        "edgePixels": 0
+      },
+      {
+        "champion": "shadowlurker",
+        "pose": "block",
+        "mirror": false,
+        "opaque": 10414,
+        "edgePixels": 0
+      },
+      {
+        "champion": "shadowlurker",
+        "pose": "hit",
+        "mirror": false,
+        "opaque": 12668,
+        "edgePixels": 0
+      },
+      {
+        "champion": "shadowlurker",
+        "pose": "defeat",
+        "mirror": false,
+        "opaque": 6470,
+        "edgePixels": 0
+      },
+      {
+        "champion": "votive",
+        "pose": "portrait",
+        "mirror": false,
+        "opaque": 18689,
+        "edgePixels": 0
+      },
+      {
+        "champion": "votive",
+        "pose": "idle",
+        "mirror": false,
+        "opaque": 13780,
+        "edgePixels": 0
+      },
+      {
+        "champion": "votive",
+        "pose": "strike",
+        "mirror": false,
+        "opaque": 8870,
+        "edgePixels": 0
+      },
+      {
+        "champion": "votive",
+        "pose": "block",
+        "mirror": false,
+        "opaque": 10745,
+        "edgePixels": 0
+      },
+      {
+        "champion": "votive",
+        "pose": "hit",
+        "mirror": false,
+        "opaque": 16985,
+        "edgePixels": 0
+      },
+      {
+        "champion": "votive",
+        "pose": "defeat",
+        "mirror": false,
+        "opaque": 6995,
+        "edgePixels": 0
+      },
+      {
+        "champion": "pitjack",
+        "pose": "portrait",
+        "mirror": false,
+        "opaque": 20914,
+        "edgePixels": 0
+      },
+      {
+        "champion": "pitjack",
+        "pose": "idle",
+        "mirror": false,
+        "opaque": 13723,
+        "edgePixels": 0
+      },
+      {
+        "champion": "pitjack",
+        "pose": "strike",
+        "mirror": false,
+        "opaque": 8305,
+        "edgePixels": 0
+      },
+      {
+        "champion": "pitjack",
+        "pose": "block",
+        "mirror": false,
+        "opaque": 12049,
+        "edgePixels": 0
+      },
+      {
+        "champion": "pitjack",
+        "pose": "hit",
+        "mirror": false,
+        "opaque": 16005,
+        "edgePixels": 0
+      },
+      {
+        "champion": "pitjack",
+        "pose": "defeat",
+        "mirror": false,
+        "opaque": 7732,
+        "edgePixels": 0
+      },
+      {
+        "champion": "ironhaul",
+        "pose": "portrait",
+        "mirror": false,
+        "opaque": 18416,
+        "edgePixels": 0
+      },
+      {
+        "champion": "ironhaul",
+        "pose": "idle",
+        "mirror": false,
+        "opaque": 18078,
+        "edgePixels": 0
+      },
+      {
+        "champion": "ironhaul",
+        "pose": "strike",
+        "mirror": false,
+        "opaque": 9872,
+        "edgePixels": 0
+      },
+      {
+        "champion": "ironhaul",
+        "pose": "block",
+        "mirror": false,
+        "opaque": 11274,
+        "edgePixels": 0
+      },
+      {
+        "champion": "ironhaul",
+        "pose": "hit",
+        "mirror": false,
+        "opaque": 18120,
+        "edgePixels": 0
+      },
+      {
+        "champion": "ironhaul",
+        "pose": "defeat",
+        "mirror": false,
+        "opaque": 6939,
+        "edgePixels": 0
+      },
+      {
+        "champion": "bastion",
+        "pose": "portrait",
+        "mirror": true,
+        "opaque": 19224,
+        "edgePixels": 0
+      },
+      {
+        "champion": "bastion",
+        "pose": "idle",
+        "mirror": true,
+        "opaque": 16977,
+        "edgePixels": 0
+      },
+      {
+        "champion": "bastion",
+        "pose": "strike",
+        "mirror": true,
+        "opaque": 8078,
+        "edgePixels": 0
+      },
+      {
+        "champion": "bastion",
+        "pose": "block",
+        "mirror": true,
+        "opaque": 11975,
+        "edgePixels": 0
+      },
+      {
+        "champion": "bastion",
+        "pose": "hit",
+        "mirror": true,
+        "opaque": 14113,
+        "edgePixels": 0
+      },
+      {
+        "champion": "bastion",
+        "pose": "defeat",
+        "mirror": true,
+        "opaque": 7486,
+        "edgePixels": 0
+      },
+      {
+        "champion": "slagjaw",
+        "pose": "portrait",
+        "mirror": true,
+        "opaque": 19199,
+        "edgePixels": 0
+      },
+      {
+        "champion": "slagjaw",
+        "pose": "idle",
+        "mirror": true,
+        "opaque": 18272,
+        "edgePixels": 0
+      },
+      {
+        "champion": "slagjaw",
+        "pose": "strike",
+        "mirror": true,
+        "opaque": 11420,
+        "edgePixels": 0
+      },
+      {
+        "champion": "slagjaw",
+        "pose": "block",
+        "mirror": true,
+        "opaque": 14627,
+        "edgePixels": 0
+      },
+      {
+        "champion": "slagjaw",
+        "pose": "hit",
+        "mirror": true,
+        "opaque": 20033,
+        "edgePixels": 0
+      },
+      {
+        "champion": "slagjaw",
+        "pose": "defeat",
+        "mirror": true,
+        "opaque": 7930,
+        "edgePixels": 0
+      },
+      {
+        "champion": "vesper",
+        "pose": "portrait",
+        "mirror": true,
+        "opaque": 19316,
+        "edgePixels": 0
+      },
+      {
+        "champion": "vesper",
+        "pose": "idle",
+        "mirror": true,
+        "opaque": 7283,
+        "edgePixels": 0
+      },
+      {
+        "champion": "vesper",
+        "pose": "strike",
+        "mirror": true,
+        "opaque": 5930,
+        "edgePixels": 0
+      },
+      {
+        "champion": "vesper",
+        "pose": "block",
+        "mirror": true,
+        "opaque": 7753,
+        "edgePixels": 0
+      },
+      {
+        "champion": "vesper",
+        "pose": "hit",
+        "mirror": true,
+        "opaque": 10269,
+        "edgePixels": 0
+      },
+      {
+        "champion": "vesper",
+        "pose": "defeat",
+        "mirror": true,
+        "opaque": 4973,
+        "edgePixels": 0
+      },
+      {
+        "champion": "guttermaw",
+        "pose": "portrait",
+        "mirror": true,
+        "opaque": 19682,
+        "edgePixels": 0
+      },
+      {
+        "champion": "guttermaw",
+        "pose": "idle",
+        "mirror": true,
+        "opaque": 14516,
+        "edgePixels": 0
+      },
+      {
+        "champion": "guttermaw",
+        "pose": "strike",
+        "mirror": true,
+        "opaque": 11267,
+        "edgePixels": 0
+      },
+      {
+        "champion": "guttermaw",
+        "pose": "block",
+        "mirror": true,
+        "opaque": 13931,
+        "edgePixels": 0
+      },
+      {
+        "champion": "guttermaw",
+        "pose": "hit",
+        "mirror": true,
+        "opaque": 16067,
+        "edgePixels": 0
+      },
+      {
+        "champion": "guttermaw",
+        "pose": "defeat",
+        "mirror": true,
+        "opaque": 7928,
+        "edgePixels": 0
+      },
+      {
+        "champion": "rivet",
+        "pose": "portrait",
+        "mirror": true,
+        "opaque": 18506,
+        "edgePixels": 0
+      },
+      {
+        "champion": "rivet",
+        "pose": "idle",
+        "mirror": true,
+        "opaque": 10637,
+        "edgePixels": 0
+      },
+      {
+        "champion": "rivet",
+        "pose": "strike",
+        "mirror": true,
+        "opaque": 10116,
+        "edgePixels": 0
+      },
+      {
+        "champion": "rivet",
+        "pose": "block",
+        "mirror": true,
+        "opaque": 11081,
+        "edgePixels": 0
+      },
+      {
+        "champion": "rivet",
+        "pose": "hit",
+        "mirror": true,
+        "opaque": 13911,
+        "edgePixels": 0
+      },
+      {
+        "champion": "rivet",
+        "pose": "defeat",
+        "mirror": true,
+        "opaque": 6834,
+        "edgePixels": 0
+      },
+      {
+        "champion": "cinder",
+        "pose": "portrait",
+        "mirror": true,
+        "opaque": 17005,
+        "edgePixels": 0
+      },
+      {
+        "champion": "cinder",
+        "pose": "idle",
+        "mirror": true,
+        "opaque": 12702,
+        "edgePixels": 0
+      },
+      {
+        "champion": "cinder",
+        "pose": "strike",
+        "mirror": true,
+        "opaque": 9265,
+        "edgePixels": 0
+      },
+      {
+        "champion": "cinder",
+        "pose": "block",
+        "mirror": true,
+        "opaque": 13248,
+        "edgePixels": 0
+      },
+      {
+        "champion": "cinder",
+        "pose": "hit",
+        "mirror": true,
+        "opaque": 14469,
+        "edgePixels": 0
+      },
+      {
+        "champion": "cinder",
+        "pose": "defeat",
+        "mirror": true,
+        "opaque": 6612,
+        "edgePixels": 0
+      },
+      {
+        "champion": "shadowlurker",
+        "pose": "portrait",
+        "mirror": true,
+        "opaque": 20409,
+        "edgePixels": 0
+      },
+      {
+        "champion": "shadowlurker",
+        "pose": "idle",
+        "mirror": true,
+        "opaque": 10942,
+        "edgePixels": 0
+      },
+      {
+        "champion": "shadowlurker",
+        "pose": "strike",
+        "mirror": true,
+        "opaque": 7594,
+        "edgePixels": 0
+      },
+      {
+        "champion": "shadowlurker",
+        "pose": "block",
+        "mirror": true,
+        "opaque": 10414,
+        "edgePixels": 0
+      },
+      {
+        "champion": "shadowlurker",
+        "pose": "hit",
+        "mirror": true,
+        "opaque": 12668,
+        "edgePixels": 0
+      },
+      {
+        "champion": "shadowlurker",
+        "pose": "defeat",
+        "mirror": true,
+        "opaque": 6470,
+        "edgePixels": 0
+      },
+      {
+        "champion": "votive",
+        "pose": "portrait",
+        "mirror": true,
+        "opaque": 18689,
+        "edgePixels": 0
+      },
+      {
+        "champion": "votive",
+        "pose": "idle",
+        "mirror": true,
+        "opaque": 13778,
+        "edgePixels": 0
+      },
+      {
+        "champion": "votive",
+        "pose": "strike",
+        "mirror": true,
+        "opaque": 8870,
+        "edgePixels": 0
+      },
+      {
+        "champion": "votive",
+        "pose": "block",
+        "mirror": true,
+        "opaque": 10745,
+        "edgePixels": 0
+      },
+      {
+        "champion": "votive",
+        "pose": "hit",
+        "mirror": true,
+        "opaque": 16988,
+        "edgePixels": 0
+      },
+      {
+        "champion": "votive",
+        "pose": "defeat",
+        "mirror": true,
+        "opaque": 6995,
+        "edgePixels": 0
+      },
+      {
+        "champion": "pitjack",
+        "pose": "portrait",
+        "mirror": true,
+        "opaque": 20914,
+        "edgePixels": 0
+      },
+      {
+        "champion": "pitjack",
+        "pose": "idle",
+        "mirror": true,
+        "opaque": 13723,
+        "edgePixels": 0
+      },
+      {
+        "champion": "pitjack",
+        "pose": "strike",
+        "mirror": true,
+        "opaque": 8305,
+        "edgePixels": 0
+      },
+      {
+        "champion": "pitjack",
+        "pose": "block",
+        "mirror": true,
+        "opaque": 12049,
+        "edgePixels": 0
+      },
+      {
+        "champion": "pitjack",
+        "pose": "hit",
+        "mirror": true,
+        "opaque": 16005,
+        "edgePixels": 0
+      },
+      {
+        "champion": "pitjack",
+        "pose": "defeat",
+        "mirror": true,
+        "opaque": 7732,
+        "edgePixels": 0
+      },
+      {
+        "champion": "ironhaul",
+        "pose": "portrait",
+        "mirror": true,
+        "opaque": 18417,
+        "edgePixels": 0
+      },
+      {
+        "champion": "ironhaul",
+        "pose": "idle",
+        "mirror": true,
+        "opaque": 18078,
+        "edgePixels": 0
+      },
+      {
+        "champion": "ironhaul",
+        "pose": "strike",
+        "mirror": true,
+        "opaque": 9872,
+        "edgePixels": 0
+      },
+      {
+        "champion": "ironhaul",
+        "pose": "block",
+        "mirror": true,
+        "opaque": 11274,
+        "edgePixels": 0
+      },
+      {
+        "champion": "ironhaul",
+        "pose": "hit",
+        "mirror": true,
+        "opaque": 18120,
+        "edgePixels": 0
+      },
+      {
+        "champion": "ironhaul",
+        "pose": "defeat",
+        "mirror": true,
+        "opaque": 6939,
+        "edgePixels": 0
+      }
+    ],
+    "arenaChecks": [
+      {
+        "viewport": 320,
+        "champion": "bastion",
+        "pose": "idle",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "bastion",
+        "pose": "strike",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "bastion",
+        "pose": "block",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "bastion",
+        "pose": "hit",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "bastion",
+        "pose": "defeat",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "slagjaw",
+        "pose": "idle",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "slagjaw",
+        "pose": "strike",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "slagjaw",
+        "pose": "block",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "slagjaw",
+        "pose": "hit",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "slagjaw",
+        "pose": "defeat",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "vesper",
+        "pose": "idle",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "vesper",
+        "pose": "strike",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "vesper",
+        "pose": "block",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "vesper",
+        "pose": "hit",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "vesper",
+        "pose": "defeat",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "guttermaw",
+        "pose": "idle",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "guttermaw",
+        "pose": "strike",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "guttermaw",
+        "pose": "block",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "guttermaw",
+        "pose": "hit",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "guttermaw",
+        "pose": "defeat",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "rivet",
+        "pose": "idle",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "rivet",
+        "pose": "strike",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "rivet",
+        "pose": "block",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "rivet",
+        "pose": "hit",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "rivet",
+        "pose": "defeat",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "cinder",
+        "pose": "idle",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "cinder",
+        "pose": "strike",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "cinder",
+        "pose": "block",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "cinder",
+        "pose": "hit",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "cinder",
+        "pose": "defeat",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "shadowlurker",
+        "pose": "idle",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "shadowlurker",
+        "pose": "strike",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "shadowlurker",
+        "pose": "block",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "shadowlurker",
+        "pose": "hit",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "shadowlurker",
+        "pose": "defeat",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "votive",
+        "pose": "idle",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "votive",
+        "pose": "strike",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "votive",
+        "pose": "block",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "votive",
+        "pose": "hit",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "votive",
+        "pose": "defeat",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "pitjack",
+        "pose": "idle",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "pitjack",
+        "pose": "strike",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "pitjack",
+        "pose": "block",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "pitjack",
+        "pose": "hit",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "pitjack",
+        "pose": "defeat",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "ironhaul",
+        "pose": "idle",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "ironhaul",
+        "pose": "strike",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "ironhaul",
+        "pose": "block",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "ironhaul",
+        "pose": "hit",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 320,
+        "champion": "ironhaul",
+        "pose": "defeat",
+        "width": 294,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "bastion",
+        "pose": "idle",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "bastion",
+        "pose": "strike",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "bastion",
+        "pose": "block",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "bastion",
+        "pose": "hit",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "bastion",
+        "pose": "defeat",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "slagjaw",
+        "pose": "idle",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "slagjaw",
+        "pose": "strike",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "slagjaw",
+        "pose": "block",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "slagjaw",
+        "pose": "hit",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "slagjaw",
+        "pose": "defeat",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "vesper",
+        "pose": "idle",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "vesper",
+        "pose": "strike",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "vesper",
+        "pose": "block",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "vesper",
+        "pose": "hit",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "vesper",
+        "pose": "defeat",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "guttermaw",
+        "pose": "idle",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "guttermaw",
+        "pose": "strike",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "guttermaw",
+        "pose": "block",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "guttermaw",
+        "pose": "hit",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "guttermaw",
+        "pose": "defeat",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "rivet",
+        "pose": "idle",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "rivet",
+        "pose": "strike",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "rivet",
+        "pose": "block",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "rivet",
+        "pose": "hit",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "rivet",
+        "pose": "defeat",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "cinder",
+        "pose": "idle",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "cinder",
+        "pose": "strike",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "cinder",
+        "pose": "block",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "cinder",
+        "pose": "hit",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "cinder",
+        "pose": "defeat",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "shadowlurker",
+        "pose": "idle",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "shadowlurker",
+        "pose": "strike",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "shadowlurker",
+        "pose": "block",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "shadowlurker",
+        "pose": "hit",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "shadowlurker",
+        "pose": "defeat",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "votive",
+        "pose": "idle",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "votive",
+        "pose": "strike",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "votive",
+        "pose": "block",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "votive",
+        "pose": "hit",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "votive",
+        "pose": "defeat",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "pitjack",
+        "pose": "idle",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "pitjack",
+        "pose": "strike",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "pitjack",
+        "pose": "block",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "pitjack",
+        "pose": "hit",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "pitjack",
+        "pose": "defeat",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "ironhaul",
+        "pose": "idle",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "ironhaul",
+        "pose": "strike",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "ironhaul",
+        "pose": "block",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "ironhaul",
+        "pose": "hit",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 390,
+        "champion": "ironhaul",
+        "pose": "defeat",
+        "width": 364,
+        "height": 180
+      },
+      {
+        "viewport": 768,
+        "champion": "bastion",
+        "pose": "idle",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "bastion",
+        "pose": "strike",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "bastion",
+        "pose": "block",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "bastion",
+        "pose": "hit",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "bastion",
+        "pose": "defeat",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "slagjaw",
+        "pose": "idle",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "slagjaw",
+        "pose": "strike",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "slagjaw",
+        "pose": "block",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "slagjaw",
+        "pose": "hit",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "slagjaw",
+        "pose": "defeat",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "vesper",
+        "pose": "idle",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "vesper",
+        "pose": "strike",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "vesper",
+        "pose": "block",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "vesper",
+        "pose": "hit",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "vesper",
+        "pose": "defeat",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "guttermaw",
+        "pose": "idle",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "guttermaw",
+        "pose": "strike",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "guttermaw",
+        "pose": "block",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "guttermaw",
+        "pose": "hit",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "guttermaw",
+        "pose": "defeat",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "rivet",
+        "pose": "idle",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "rivet",
+        "pose": "strike",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "rivet",
+        "pose": "block",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "rivet",
+        "pose": "hit",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "rivet",
+        "pose": "defeat",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "cinder",
+        "pose": "idle",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "cinder",
+        "pose": "strike",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "cinder",
+        "pose": "block",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "cinder",
+        "pose": "hit",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "cinder",
+        "pose": "defeat",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "shadowlurker",
+        "pose": "idle",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "shadowlurker",
+        "pose": "strike",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "shadowlurker",
+        "pose": "block",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "shadowlurker",
+        "pose": "hit",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "shadowlurker",
+        "pose": "defeat",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "votive",
+        "pose": "idle",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "votive",
+        "pose": "strike",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "votive",
+        "pose": "block",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "votive",
+        "pose": "hit",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "votive",
+        "pose": "defeat",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "pitjack",
+        "pose": "idle",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "pitjack",
+        "pose": "strike",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "pitjack",
+        "pose": "block",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "pitjack",
+        "pose": "hit",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "pitjack",
+        "pose": "defeat",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "ironhaul",
+        "pose": "idle",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "ironhaul",
+        "pose": "strike",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "ironhaul",
+        "pose": "block",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "ironhaul",
+        "pose": "hit",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 768,
+        "champion": "ironhaul",
+        "pose": "defeat",
+        "width": 726,
+        "height": 207
+      },
+      {
+        "viewport": 1280,
+        "champion": "bastion",
+        "pose": "idle",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "bastion",
+        "pose": "strike",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "bastion",
+        "pose": "block",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "bastion",
+        "pose": "hit",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "bastion",
+        "pose": "defeat",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "slagjaw",
+        "pose": "idle",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "slagjaw",
+        "pose": "strike",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "slagjaw",
+        "pose": "block",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "slagjaw",
+        "pose": "hit",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "slagjaw",
+        "pose": "defeat",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "vesper",
+        "pose": "idle",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "vesper",
+        "pose": "strike",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "vesper",
+        "pose": "block",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "vesper",
+        "pose": "hit",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "vesper",
+        "pose": "defeat",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "guttermaw",
+        "pose": "idle",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "guttermaw",
+        "pose": "strike",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "guttermaw",
+        "pose": "block",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "guttermaw",
+        "pose": "hit",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "guttermaw",
+        "pose": "defeat",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "rivet",
+        "pose": "idle",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "rivet",
+        "pose": "strike",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "rivet",
+        "pose": "block",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "rivet",
+        "pose": "hit",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "rivet",
+        "pose": "defeat",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "cinder",
+        "pose": "idle",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "cinder",
+        "pose": "strike",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "cinder",
+        "pose": "block",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "cinder",
+        "pose": "hit",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "cinder",
+        "pose": "defeat",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "shadowlurker",
+        "pose": "idle",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "shadowlurker",
+        "pose": "strike",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "shadowlurker",
+        "pose": "block",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "shadowlurker",
+        "pose": "hit",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "shadowlurker",
+        "pose": "defeat",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "votive",
+        "pose": "idle",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "votive",
+        "pose": "strike",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "votive",
+        "pose": "block",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "votive",
+        "pose": "hit",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "votive",
+        "pose": "defeat",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "pitjack",
+        "pose": "idle",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "pitjack",
+        "pose": "strike",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "pitjack",
+        "pose": "block",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "pitjack",
+        "pose": "hit",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "pitjack",
+        "pose": "defeat",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "ironhaul",
+        "pose": "idle",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "ironhaul",
+        "pose": "strike",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "ironhaul",
+        "pose": "block",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "ironhaul",
+        "pose": "hit",
+        "width": 1078,
+        "height": 280
+      },
+      {
+        "viewport": 1280,
+        "champion": "ironhaul",
+        "pose": "defeat",
+        "width": 1078,
+        "height": 280
+      }
+    ]
+  },
+  "reconnect": true,
+  "rematches": 6
+}

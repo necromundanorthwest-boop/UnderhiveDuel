@@ -1,70 +1,57 @@
-# Underhive Duel 0.2.0 — recovered release review
+# Underhive Duel 0.2.0 — submission release review
 
-**RECOVERED BUILD NOT READY** — browser and Docker execution gates remain blocked.
+**RECOVERED BUILD READY FOR RELEASE REVIEW**
 
-Audit date: 2026-10-07. No merge or deployment performed. This is a pre-release review; deployed verification is a later step, not a prerequisite for preparing this branch.
+Updated 2026-10-07. The user has authorized publication and deployment. Pre-deployment gates pass; public deployment verification follows the main merge.
 
-## Recovered provenance and production comparison
+## Provenance and scope
 
-- Recovered branch: `release/ten-champions-0.2.0`.
-- Recovered HEAD: `29922af9da092c053ebde93a8f363c3042fa2550`.
-- Production `main`, freshly verified through GitHub: `3fd21ff4baf46b4dc8c89d321fc50228d80f68d2` (also the recovered commit's parent).
-- Review branch: `release/0.2.0-ten-champion`, prepared locally. Not pushed, merged, or deployed.
-- Recovered working tree was clean; ignored `docs/asset-proof/atlas-contact-sheet.svg` was present.
-- All 345 original ZIP file entries match the salvage inventory SHA-256 values. Initial Git inspection refreshed the extracted `.git/index`; verification against the untouched ZIP confirms this is not an archive integrity failure.
+Recovered branch `release/ten-champions-0.2.0`, HEAD `29922af9da092c053ebde93a8f363c3042fa2550`. Production baseline `3fd21ff4baf46b4dc8c89d321fc50228d80f68d2` was verified on GitHub. All 345 archived files matched the salvage inventory. The recovered implementation was preserved, with only diagnostic and test-harness changes during this continuation.
 
-## Verified audit results
+Published branch: `release/0.2.0-ten-champion`. PR: https://github.com/necromundanorthwest-boop/UnderhiveDuel/pull/1 . Initial published tree exactly matched audited local commit `16503c3`; API publication created a different commit identity while preserving the complete tree.
 
-| Gate | Observed result |
+## Release gate evidence
+
+Passing CI: https://github.com/necromundanorthwest-boop/UnderhiveDuel/actions/runs/37579182972
+
+Tested branch commit: `0391249042698a8db4e1802807aef71330bee0a0`. The browser report records GitHub's synthetic PR merge SHA as sourceCommit. Subsequent changes add public-deployment verification and documentation; gameplay, atlas and roster bytes are unchanged.
+
+| Gate | Result |
 | --- | --- |
-| Roster | Ten unique champions, including Shadowlurker, Votive, Pitjack and Ironhaul |
-| Versions | package, roster rulesVersion and manifest rulesVersion/visualVersion are 0.2.0 |
-| Release authority | `authority/releases/0.2.0/champions.json` equals public roster byte for byte; generated JS roster agrees through automated tests |
-| Original six | Profiles, original atlas bytes and all 36 original manifest frame entries compared directly with production main and are unchanged |
-| Frozen authority/UI/background | Hash-lock tests pass |
-| New frames | All 24 required portrait/idle/strike/block/hit/defeat frames present; actual PNG hashes, dimensions, rectangles, pivots and masks verified |
-| All sprite states | 60 nonempty frames; actual opaque-component checks found zero foreign or clipped component pixels across all 60; renderer call tests cover both facing directions |
-| Static visual review | Existing 60-frame contact sheet inspected; no obvious neighboring-pose contamination or missing poses observed |
-| Unit/integration tests | Fresh `npm test`: 53 passed, 0 failed, 0 skipped, on Node 24.19.0 |
-| Ordered pairings | All 100 deterministic full-match pairing checks pass; these are completion tests, not balance estimates |
-| HTTP multiplayer | 14 synchronized matches with mutual rematches pass; transport-module seat restore also passes |
-| Balance screening | Fresh full 220,000-bout run, 55 unordered pairings × two resource conditions × two attacker roles × 1,000 samples; JSON reproduced byte for byte |
-| 320/390/768/1280 | Mathematical arena geometry checks pass; actual browser layout and touch-control checks BLOCKED |
-| Browser multiplayer/rematch | BLOCKED before launch; no browser match or rematch success claimed |
-| Docker build/start/health | BLOCKED: Docker command and daemon unavailable |
+| Versions and roster | PASS: 0.2.0; ten champions, including Shadowlurker, Votive, Pitjack and Ironhaul; release/public/generated roster agrees |
+| Original six | PASS: profiles, atlas bytes and 36 manifest frames equal verified production baseline |
+| Frozen authority/UI/background | PASS: existing hash-lock tests |
+| Automated tests | PASS: 53 tests on Node 22 in GitHub CI; earlier local Node 24 run also passes |
+| Ordered pairings | PASS: 100 deterministic full-match pairing checks |
+| HTTP multiplayer | PASS: 14 synchronized matches with mutual rematches |
+| Balance reproduction | PASS: 220,000 bouts, 55 unordered pairings; fresh output matches saved JSON byte for byte |
+| Pixel validation | PASS: 60 nonempty frames, all 24 additions; zero foreign or clipped opaque-component pixels under current masks |
+| Chromium sprite validation | PASS: all 60 states in both orientations (120 frame renders), plus 200 arena renders covering ten champions, five poses and four widths |
+| Browser layouts | PASS: 320, 390, 768, 1280; no horizontal overflow and enabled controls at least 44×44 CSS pixels |
+| Browser multiplayer | PASS: six complete matches; all four additions in both seats plus a new-champion mirror |
+| Mutual rematches | PASS: six; fresh match identity and reset Command tokens verified |
+| Connection behavior | PASS: offline pause, reconnection and reload seat restore |
+| Docker | PASS: image builds, starts and returns healthy 0.2.0 rules/visual versions |
 
-Pixel checks use alpha > 128, matching the recovered measurement method. They do not substitute for live canvas/browser inspection. No physical-device test is claimed.
+The actual normal/mirrored Chromium contact sheets were visually reviewed. Representative selection, fight, result and connection-error screenshots were reviewed across the four widths. The 320px selector intentionally scrolls internally; browser selection of later champions remains functional. Full screenshots are in the passing workflow's browser-evidence artifact (14-day retention). Structured results are preserved in `release-evidence/ci-browser-results.json`. No physical-device testing is claimed.
 
-## Balance findings
+## Failure resolved
 
-The reproducible screen retains the documented new-champion mean non-mirror win rates: Shadowlurker 50.7%, Votive 48.7%, Pitjack 58.6%, Ironhaul 51.4%. Pitjack remains a playtest concern. Ironhaul mirror O.O.A. rates remain 12.4% without Command and 24.1% with Command. Individual matchup outliers exceed 70%, including unchanged original pairings. These fixed all-Strike policies omit Block strategy and optimal full-match resource allocation; they do not prove competitive balance. No profile was changed in this continuation.
+The browser harness previously issued rematch clicks before both polling clients had synchronized after a reload and after the first consent. This could produce a legitimate stale-version rejection and then a test timeout. The fixed harness waits for the reload's new synchronized state, the first player's acknowledged consent, and finally a new match ID after the second consent. The server's stale-action protections, game rules and transport code remain unchanged. Early failed CI runs 37578874058 and 37579030243 are superseded by the passing run above.
 
-## Continuation changes
+The earlier recovery report incorrectly described the first consent as requiring both requests before a version increment. In fact every accepted consent increments the version; the defect was stale browser timing. This report corrects that explanation.
 
-1. Restored the production browser harness's mutual-rematch synchronization fix. The recovered harness waited after the first rematch request for a game-version change that requires both requests. Both players now click before the harness waits for synchronized progression, matching production main. Syntax validation passes; browser execution remains unverified.
-2. Added `scripts/validate-sprite-pixels.py`, a read-only validator of actual atlas pixels against current masks. It writes diagnostic evidence only.
-3. Added fresh test, screening, pixel and blocked-browser evidence; updated this review and known issues.
+## Balance limits
 
-No gameplay, roster, atlas, balance, server topology or deployment changes were made.
+The fixed all-Strike screen retains mean non-mirror win rates of 50.7% Shadowlurker, 48.7% Votive, 58.6% Pitjack and 51.4% Ironhaul. Pitjack's strength and Ironhaul's low mirror O.O.A. rates (12.4%/24.1%) remain playtest concerns. Individual matchup outliers exceed 70%, including original pairings. This policy omits Block strategy and optimal match-level resource use; it does not prove competitive balance. No rebalance was performed.
 
-## Execution blockers and exact remaining work
+## Deployment target and next verification
 
-1. **Browser runtime:** Playwright is available, but its Chromium binary is absent. Chromium installation repeatedly downloaded an invalid/truncated archive. `npm run test:browser` therefore reports BLOCKED before launch. An attempt to install Chromium/Docker with the system package manager also failed on setgroups/seteuid permissions. Run in an environment with working Chromium: `npm install --no-save playwright`, `npx playwright install --with-deps chromium`, then `npm run test:browser`. Inspect actual screenshots at all four widths and exercise all 60 states, including mirrored poses and floor anchors. Existing harness covers six full browser match pairings, reconnection, error screens and mutual rematches; its successful execution and screenshot review remain necessary.
-2. **Docker/Node 22:** Run `docker build -t underhive-duel-020 .`, then run one container with `PORT=3000` and a mapped port. Assert `/health` reports both versions as 0.2.0, test static asset delivery, and stop the container. The current Dockerfile uses Node 22 Alpine, non-root user `node`, and `node server/http.js`. Local Node 24 tests do not replace the Node 22/container gate. Repository CI already describes browser and Docker jobs.
-3. Publish the prepared review branch without overwriting remote work, and run CI or equivalent validation. Record executed results and screenshot review here. The branch is currently local, so no remote PR or CI success is claimed.
-4. Only after every release gate passes may this be marked ready for release review. Preserve all six original champions. Do not merge or deploy as part of this continuation.
+Existing service: `srv-db0rj8k9v7es73cnrlvg`, https://underhive-duel.onrender.com . Render account workspace `tea-db0bn62d0e5s73aub4rg`. Confirmed Docker service tracking main, auto-deploy on commit, one instance, free plan, Oregon. The observed previous deploy is baseline `3fd21ff` with versions 0.1.0.
 
-## Evidence paths
+Merge the authorized release and let the existing auto-deploy run. The added `Live release verification` workflow waits for `/health` to report the exact GitHub SHA and versions 0.2.0, then validates all sprites/layouts, two public browser matches covering all four additions, mutual rematches and reconnection. Public success must be observed before declaring the website updated. No additional service, database, persistent disk, AI, weapon builder, accounts, matchmaking or progression is introduced.
 
-- `docs/release-evidence/recovered-unit-tests.txt`
-- `docs/release-evidence/recovered-screening-log.txt`
-- `docs/release-evidence/matchup-screening.json` (fresh reproduction, unchanged)
-- `docs/release-evidence/recovered-pixel-validation.json`
-- `docs/release-evidence/recovered-browser-attempt.txt`
-- `docs/browser-evidence/results.json` (fresh BLOCKED result)
-- `docs/asset-proof/atlas-contact-sheet.png` (recovered visual diagnostic)
-
-Historical Stage 3 browser reports and screenshots are not evidence of this release passing.
+Known platform limits remain: one in-memory authority, active matches lost on process restart, polling latency, session-bound seat recovery and large initial sprite downloads.
 
 ## Recovered changes relative to verified production main
 
@@ -114,4 +101,5 @@ M	test/rules.test.js
 
 Screening JSON SHA-256: `6db75c9b3746874ca9e0f6eaa7c9379b7a0246e1bf60809fb8f196cf5b6dd1d7`.
 
-**RECOVERED BUILD NOT READY** — remaining blockers: executable browser/layout/all-state/multiplayer/rematch validation and Docker/Node 22 validation.
+
+**RECOVERED BUILD READY FOR RELEASE REVIEW**

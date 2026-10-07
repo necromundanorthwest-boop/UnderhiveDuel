@@ -3,7 +3,7 @@
 ## Release 0.2.0 verification
 
 - 53 automated rules, asset, transport and multiplayer tests pass locally.
-- Recovery audit: 53 tests rerun successfully on Node 24; 220,000-bout screening reproduced exactly and 60 actual sprite frames validated. Browser execution is blocked by absent Chromium and a failed download; Docker is absent and package installation failed. Browser/layout/rematch and Docker/Node 22 gates remain pending. See SUBMISSION_RELEASE_REVIEW.md for authoritative evidence and exact next steps.
+- Release gates now pass in GitHub CI on Node 22: 53 tests, all four browser widths, 60 states in both orientations, six browser matches/rematches, reconnection and Docker build/start/health. Local runtime installation blockers were resolved by using CI. Public deployment checks are handled by the Live release verification workflow. See SUBMISSION_RELEASE_REVIEW.md.
 - Physical-device, 200% text and wider accessibility testing remain outside the completed evidence.
 - Pitjack remains strong in the documented all-Strike policy screen; Ironhaul mirrors have low O.O.A. frequency. See ROSTER_EXPANSION_BALANCE.md. These are explicit limitations, not a claim of optimal-play balance.
 
