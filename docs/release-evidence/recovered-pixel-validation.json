@@ -1,0 +1,428 @@
+{
+  "status": "PASS",
+  "frames": 60,
+  "newFrames": 24,
+  "method": "actual PNG alpha > 128; current manifest masks; new frames require no foreign or clipped component pixels",
+  "rows": [
+    {
+      "champion": "bastion",
+      "frame": "portrait",
+      "opaquePixels": 134721,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "bastion",
+      "frame": "idle",
+      "opaquePixels": 75333,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "bastion",
+      "frame": "strike",
+      "opaquePixels": 68918,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "bastion",
+      "frame": "block",
+      "opaquePixels": 79667,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "bastion",
+      "frame": "hit",
+      "opaquePixels": 66145,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "bastion",
+      "frame": "defeat",
+      "opaquePixels": 58751,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "slagjaw",
+      "frame": "portrait",
+      "opaquePixels": 139185,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "slagjaw",
+      "frame": "idle",
+      "opaquePixels": 105829,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "slagjaw",
+      "frame": "strike",
+      "opaquePixels": 88532,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "slagjaw",
+      "frame": "block",
+      "opaquePixels": 105238,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "slagjaw",
+      "frame": "hit",
+      "opaquePixels": 89482,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "slagjaw",
+      "frame": "defeat",
+      "opaquePixels": 66146,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "vesper",
+      "frame": "portrait",
+      "opaquePixels": 123268,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "vesper",
+      "frame": "idle",
+      "opaquePixels": 50739,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "vesper",
+      "frame": "strike",
+      "opaquePixels": 48392,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "vesper",
+      "frame": "block",
+      "opaquePixels": 54616,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "vesper",
+      "frame": "hit",
+      "opaquePixels": 50737,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "vesper",
+      "frame": "defeat",
+      "opaquePixels": 42127,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "guttermaw",
+      "frame": "portrait",
+      "opaquePixels": 126592,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "guttermaw",
+      "frame": "idle",
+      "opaquePixels": 85405,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "guttermaw",
+      "frame": "strike",
+      "opaquePixels": 76259,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "guttermaw",
+      "frame": "block",
+      "opaquePixels": 91296,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "guttermaw",
+      "frame": "hit",
+      "opaquePixels": 89519,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "guttermaw",
+      "frame": "defeat",
+      "opaquePixels": 57291,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "rivet",
+      "frame": "portrait",
+      "opaquePixels": 106231,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "rivet",
+      "frame": "idle",
+      "opaquePixels": 67447,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "rivet",
+      "frame": "strike",
+      "opaquePixels": 69014,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "rivet",
+      "frame": "block",
+      "opaquePixels": 71165,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "rivet",
+      "frame": "hit",
+      "opaquePixels": 69239,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "rivet",
+      "frame": "defeat",
+      "opaquePixels": 51169,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "cinder",
+      "frame": "portrait",
+      "opaquePixels": 115292,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "cinder",
+      "frame": "idle",
+      "opaquePixels": 70414,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "cinder",
+      "frame": "strike",
+      "opaquePixels": 76276,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "cinder",
+      "frame": "block",
+      "opaquePixels": 86457,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "cinder",
+      "frame": "hit",
+      "opaquePixels": 82384,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "cinder",
+      "frame": "defeat",
+      "opaquePixels": 53674,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "shadowlurker",
+      "frame": "portrait",
+      "opaquePixels": 128261,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "shadowlurker",
+      "frame": "idle",
+      "opaquePixels": 53805,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "shadowlurker",
+      "frame": "strike",
+      "opaquePixels": 55407,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "shadowlurker",
+      "frame": "block",
+      "opaquePixels": 57146,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "shadowlurker",
+      "frame": "hit",
+      "opaquePixels": 58492,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "shadowlurker",
+      "frame": "defeat",
+      "opaquePixels": 48535,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "votive",
+      "frame": "portrait",
+      "opaquePixels": 118832,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "votive",
+      "frame": "idle",
+      "opaquePixels": 77758,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "votive",
+      "frame": "strike",
+      "opaquePixels": 76848,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "votive",
+      "frame": "block",
+      "opaquePixels": 78592,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "votive",
+      "frame": "hit",
+      "opaquePixels": 80068,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "votive",
+      "frame": "defeat",
+      "opaquePixels": 57863,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "pitjack",
+      "frame": "portrait",
+      "opaquePixels": 134710,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "pitjack",
+      "frame": "idle",
+      "opaquePixels": 74177,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "pitjack",
+      "frame": "strike",
+      "opaquePixels": 67751,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "pitjack",
+      "frame": "block",
+      "opaquePixels": 78078,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "pitjack",
+      "frame": "hit",
+      "opaquePixels": 85326,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "pitjack",
+      "frame": "defeat",
+      "opaquePixels": 55616,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "ironhaul",
+      "frame": "portrait",
+      "opaquePixels": 153073,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "ironhaul",
+      "frame": "idle",
+      "opaquePixels": 86922,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "ironhaul",
+      "frame": "strike",
+      "opaquePixels": 80521,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "ironhaul",
+      "frame": "block",
+      "opaquePixels": 84635,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "ironhaul",
+      "frame": "hit",
+      "opaquePixels": 88149,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    },
+    {
+      "champion": "ironhaul",
+      "frame": "defeat",
+      "opaquePixels": 56948,
+      "foreignOpaquePixelsAfterMask": 0,
+      "mainComponentPixelsClipped": 0
+    }
+  ]
+}

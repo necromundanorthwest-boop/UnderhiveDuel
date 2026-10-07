@@ -1,0 +1,314 @@
+[
+  {
+    "champion": "shadowlurker",
+    "frame": "portrait",
+    "rect": [
+      12,
+      75,
+      468,
+      426
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "shadowlurker",
+    "frame": "idle",
+    "rect": [
+      576,
+      124,
+      310,
+      377
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "shadowlurker",
+    "frame": "strike",
+    "rect": [
+      981,
+      146,
+      514,
+      355
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "shadowlurker",
+    "frame": "block",
+    "rect": [
+      51,
+      563,
+      399,
+      398
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "shadowlurker",
+    "frame": "hit",
+    "rect": [
+      588,
+      596,
+      341,
+      365
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "shadowlurker",
+    "frame": "defeat",
+    "rect": [
+      979,
+      808,
+      521,
+      159
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "votive",
+    "frame": "portrait",
+    "rect": [
+      16,
+      117,
+      479,
+      373
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "votive",
+    "frame": "idle",
+    "rect": [
+      565,
+      89,
+      387,
+      404
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "votive",
+    "frame": "strike",
+    "rect": [
+      971,
+      139,
+      559,
+      354
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "votive",
+    "frame": "block",
+    "rect": [
+      40,
+      503,
+      391,
+      460
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "votive",
+    "frame": "hit",
+    "rect": [
+      587,
+      605,
+      412,
+      358
+    ],
+    "foreignOpaquePixelsBeforeMask": 1131,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "votive",
+    "frame": "defeat",
+    "rect": [
+      973,
+      796,
+      547,
+      167
+    ],
+    "foreignOpaquePixelsBeforeMask": 1415,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "pitjack",
+    "frame": "portrait",
+    "rect": [
+      20,
+      69,
+      483,
+      421
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "pitjack",
+    "frame": "idle",
+    "rect": [
+      568,
+      94,
+      361,
+      395
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "pitjack",
+    "frame": "strike",
+    "rect": [
+      978,
+      140,
+      543,
+      341
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "pitjack",
+    "frame": "block",
+    "rect": [
+      33,
+      522,
+      432,
+      433
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "pitjack",
+    "frame": "hit",
+    "rect": [
+      572,
+      572,
+      439,
+      383
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "pitjack",
+    "frame": "defeat",
+    "rect": [
+      1012,
+      796,
+      509,
+      168
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "ironhaul",
+    "frame": "portrait",
+    "rect": [
+      12,
+      114,
+      548,
+      380
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "ironhaul",
+    "frame": "idle",
+    "rect": [
+      575,
+      121,
+      398,
+      373
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "ironhaul",
+    "frame": "strike",
+    "rect": [
+      982,
+      145,
+      543,
+      349
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "ironhaul",
+    "frame": "block",
+    "rect": [
+      27,
+      498,
+      447,
+      466
+    ],
+    "foreignOpaquePixelsBeforeMask": 0,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "ironhaul",
+    "frame": "hit",
+    "rect": [
+      564,
+      609,
+      418,
+      355
+    ],
+    "foreignOpaquePixelsBeforeMask": 142,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  },
+  {
+    "champion": "ironhaul",
+    "frame": "defeat",
+    "rect": [
+      977,
+      815,
+      545,
+      149
+    ],
+    "foreignOpaquePixelsBeforeMask": 67,
+    "foreignOpaquePixelsAfterMask": 0,
+    "ownOpaquePixelsClipped": 0
+  }
+]

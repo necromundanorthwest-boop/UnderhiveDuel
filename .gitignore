@@ -3,3 +3,5 @@ node_modules/
 .env.*
 !.env.example
 .DS_Store
+
+docs/asset-proof/atlas-contact-sheet.svg

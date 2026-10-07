@@ -1,3 +1,4 @@
+import {rulesVersion,visualVersion} from '../public/lib/roster.js';
 import http from 'node:http';
 import {readFile,stat} from 'node:fs/promises';
 import {resolve,extname,dirname} from 'node:path';
@@ -11,7 +12,7 @@ export function createApp({service=new RoomService()}={}){
  res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Referrer-Policy','no-referrer');res.setHeader('X-Frame-Options','DENY');res.setHeader('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'");
  let url;try{url=new URL(req.url,'http://localhost');}catch{return json(400,{error:'Invalid URL'});}
  const sendError=(e,code,token,connection)=>{const status=!e.code?500:e.code==='ROOM_GONE'?404:['INVALID_SEAT','CONNECTION_REPLACED'].includes(e.code)?403:e.code==='CAPACITY'?503:409;let snapshot;try{const {r,seat}=service.current(code,token,connection);snapshot=service.snapshot(r,seat);}catch{}json(status,{code:e.code||'SERVER_ERROR',error:e.code?e.message:'The service could not complete the request.',snapshot});};
- if(url.pathname==='/health')return json(200,{ok:true,rulesVersion:'0.1.0',visualVersion:'0.1.0'});
+ if(url.pathname==='/health')return json(200,{ok:true,rulesVersion,visualVersion,commit:process.env.RENDER_GIT_COMMIT||null});
  if(url.pathname.startsWith('/api/')){const code=url.pathname.split('/')[3],secret=req.headers.authorization?.replace(/^Bearer /,''),connection=req.headers['x-connection'];
  // Same-origin browser requests only. No cross-origin room authority or seat disclosure.
  const origin=req.headers.origin;if(origin){try{if(new URL(origin).host!==req.headers.host)return json(403,{code:'ORIGIN',error:'Cross-origin requests are not allowed.'});}catch{return json(403,{code:'ORIGIN',error:'Invalid origin.'});}}
