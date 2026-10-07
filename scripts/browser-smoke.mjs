@@ -22,7 +22,8 @@ const states=[null,null];for(const [i,p] of pages.entries())p.on('response',asyn
 const wait=async pred=>{const until=Date.now()+15000;while(!pred()){if(Date.now()>until)throw Error('Timed out waiting for synchronized UI: '+JSON.stringify(states.map(s=>s&&({id:s.id,phase:s.phase,version:s.version,ready:s.ready,paused:s.paused}))));await new Promise(r=>setTimeout(r,100));}};
 const captured=new Set();let reconnectChecked=false;
 async function capture(label){if(captured.has(label))return;captured.add(label);for(const w of [320,390,768,1280])await fit(pages[0],w,label);}
-for(const [match,pair] of [['bastion','slagjaw'],['shadowlurker','votive'],['votive','shadowlurker'],['pitjack','ironhaul'],['ironhaul','pitjack'],['pitjack','pitjack']].entries()){
+const matchPairs=process.env.BASE_URL?[['shadowlurker','ironhaul'],['votive','pitjack']]:[['bastion','slagjaw'],['shadowlurker','votive'],['votive','shadowlurker'],['pitjack','ironhaul'],['ironhaul','pitjack'],['pitjack','pitjack']];
+for(const [match,pair] of matchPairs.entries()){
  await capture(match===0?'selection':'rematch');
  for(const [i,p] of pages.entries()){await p.locator(`[data-champion="${pair[i]}"]`).click();await p.locator('#lock-champion').click();if(i===0){await wait(()=>states[1]?.phase==='CHAMPION_SELECT'&&states[1].ready[0]);assert.equal(states[1].players[0].champion,null);}}
  await wait(()=>states.every(s=>s?.bout===1));if(match===0)for(const w of [320,390,768,1280])await fit(pages[0],w,'fight');
