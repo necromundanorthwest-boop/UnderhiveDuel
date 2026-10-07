@@ -19,7 +19,7 @@ for(const w of [320,390,768,1280])await fit(pages[0],w,'entry');await pages[0].l
 for(const p of pages)await p.locator('[data-champion]').first().waitFor();
 // Read snapshots without replacing active connections: observe authorized polling responses.
 const states=[null,null];for(const [i,p] of pages.entries())p.on('response',async r=>{if(r.url().endsWith('/state')&&r.ok())states[i]=await r.json();});
-const wait=async pred=>{const until=Date.now()+15000;while(!pred()){if(Date.now()>until)throw Error('Timed out waiting for synchronized UI');await new Promise(r=>setTimeout(r,100));}};
+const wait=async pred=>{const until=Date.now()+15000;while(!pred()){if(Date.now()>until)throw Error('Timed out waiting for synchronized UI: '+JSON.stringify(states.map(s=>s&&({id:s.id,phase:s.phase,version:s.version,ready:s.ready,paused:s.paused}))));await new Promise(r=>setTimeout(r,100));}};
 const captured=new Set();let reconnectChecked=false;
 async function capture(label){if(captured.has(label))return;captured.add(label);for(const w of [320,390,768,1280])await fit(pages[0],w,label);}
 for(const [match,pair] of [['bastion','slagjaw'],['shadowlurker','votive'],['votive','shadowlurker'],['pitjack','ironhaul'],['ironhaul','pitjack'],['pitjack','pitjack']].entries()){
@@ -32,8 +32,8 @@ for(const [match,pair] of [['bastion','slagjaw'],['shadowlurker','votive'],['vot
  else throw Error(`Unexpected phase ${s.phase}`);
  }
  await wait(()=>states.every(s=>s.phase==='MATCH_RESULT'));assert.deepEqual(states[0].players,states[1].players);assert.equal(Math.max(...states[0].players.map(p=>p.score)),3);report.matches.push({champions:pair,score:states[0].players.map(p=>p.score),bouts:states[0].bout,synchronized:true});
- if(match===0){for(const w of [320,390,768,1280])await fit(pages[0],w,'result');await pages[1].reload();await pages[1].locator('#rematch').waitFor();}
- const rematchVersion=states[0].version;for(const p of pages)await p.locator('#rematch').click();await wait(()=>states[0].version>rematchVersion&&states[1].version===states[0].version);await wait(()=>states.every(s=>s.phase==='CHAMPION_SELECT'));assert.deepEqual(states[0].players.map(p=>p.tokens),[2,2]);
+ if(match===0){for(const w of [320,390,768,1280])await fit(pages[0],w,'result');const beforeReload=states[0].version;await pages[1].reload();await pages[1].locator('#rematch').waitFor();await wait(()=>states[0].version>beforeReload&&states[1].version===states[0].version);}
+ const oldMatchId=states[0].id;await pages[0].locator('#rematch').click();await wait(()=>states.every(s=>s.phase==='MATCH_RESULT'&&s.ready[0])&&states[0].version===states[1].version);await pages[1].locator('#rematch').click();await wait(()=>states.every(s=>s.phase==='CHAMPION_SELECT'&&s.id!==oldMatchId)&&states[0].version===states[1].version);report.rematches=(report.rematches||0)+1;assert.deepEqual(states[0].players.map(p=>p.tokens),[2,2]);
 }
 assert.deepEqual(report.errors,[]);report.status='PASS';
 }catch(e){report.status=browser?'FAIL':'BLOCKED';report.errors.push(e.stack);throw e;}finally{await writeFile('docs/browser-evidence/results.json',JSON.stringify(report,null,2));await browser?.close();if(server.listening)await new Promise(r=>server.close(r));}
