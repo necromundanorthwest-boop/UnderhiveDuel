@@ -5,13 +5,14 @@ import {mkdir,writeFile} from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {createApp} from '../server/http.js';
 import {RoomService} from '../server/rooms.js';
+import {validateBrowserSprites} from './browser-sprites.mjs';
 import {seededD6} from '../public/lib/engine.js';
 const {chromium}=await import(process.env.PLAYWRIGHT_MODULE||'playwright');
 const {server}=createApp({service:new RoomService({rng:seededD6(71234)})});
 if(!process.env.BASE_URL)await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));const origin=process.env.BASE_URL||`http://127.0.0.1:${server.address().port}`;
 let browser;const report={status:'RUNNING',started:new Date().toISOString(),sourceCommit:process.env.GITHUB_SHA||null,origin,deviceType:'two isolated browser contexts, desktop and touch mobile emulation',viewports:[],matches:[],errors:[]};
 await mkdir('docs/browser-evidence',{recursive:true});
-try{browser=await chromium.launch();const contexts=await Promise.all([browser.newContext({viewport:{width:1280,height:900},reducedMotion:'reduce'}),browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'reduce'})]);const pages=await Promise.all(contexts.map(c=>c.newPage()));
+try{browser=await chromium.launch();report.sprites=await validateBrowserSprites(browser,origin);const contexts=await Promise.all([browser.newContext({viewport:{width:1280,height:900},reducedMotion:'reduce'}),browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'reduce'})]);const pages=await Promise.all(contexts.map(c=>c.newPage()));
 for(const p of pages){p.on('pageerror',e=>report.errors.push(e.message));p.on('response',r=>{if(r.status()>=500)report.errors.push(`HTTP ${r.status()} ${r.url()}`);});await p.goto(origin);await p.locator('#create').waitFor();}
 async function fit(p,width,label){await p.setViewportSize({width,height:900});await p.locator('.shell').waitFor();const dimensions=await p.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth,buttons:[...document.querySelectorAll('button:not(:disabled)')].map(b=>({text:b.textContent,height:b.getBoundingClientRect().height,width:b.getBoundingClientRect().width}))}));assert(dimensions.scroll<=dimensions.width,`${label} overflows at ${width}`);assert(dimensions.buttons.every(b=>b.width>=44&&b.height>=44),`${label}: undersized controls`);report.viewports.push({width,screen:label,pass:true});await p.screenshot({path:`docs/browser-evidence/${label}-${width}.png`,fullPage:true});}
 for(const w of [320,390,768,1280])await fit(pages[0],w,'entry');await pages[0].locator('#create').click();await pages[0].locator('.roomcode').waitFor();for(const w of [320,390,768,1280])await fit(pages[0],w,'lobby');const code=await pages[0].locator('.roomcode').textContent();await pages[1].locator('#code').fill(code);await pages[1].locator('#join').click();
