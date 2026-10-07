@@ -6,7 +6,7 @@ import json,base64
 from pathlib import Path
 p=Path(__file__).resolve().parents[1]
 m=json.loads((p/'public/ASSET_MANIFEST.json').read_text())
-W,H=1320,1380
+W,H=1320,2240
 out=[f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{W}" height="{H}" viewBox="0 0 {W} {H}"><rect width="{W}" height="{H}" fill="#101419"/><defs>']
 for s in m['sprites']:
  out.append(f'<image id="{s["id"]}" width="1536" height="1024" xlink:href="data:image/png;base64,{base64.b64encode((p/"public"/s["path"]).read_bytes()).decode()}"/>')

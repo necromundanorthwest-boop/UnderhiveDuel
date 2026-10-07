@@ -1,0 +1,66 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> underhive-duel@0.2.0 test
+> node --test test/*.test.js
+
+✔ All 13 frozen authority files remain byte-identical (11.229508ms)
+✔ All ten actual atlas hashes, PNG dimensions and 60 nonuniform frames match manifest (44.608929ms)
+✔ Renderer uses every exact source rectangle, rectangular crop, optional polygon, and local pivot (4.615897ms)
+✔ Arena geometry: all five combat poses and floor anchors fit at 320/390/768/1280 CSS widths (0.668078ms)
+✔ Every dice class and overlay referenced by client exists (10.890067ms)
+✔ Frozen dice assets, manifest and adopted Foundry bytes are unchanged (21.475599ms)
+✔ 0.2.0: ten unique schema-valid profiles; original six deeply unchanged; no new traits (2.002021ms)
+✔ No new profile strictly dominates a same-trait original profile (0.27826ms)
+✔ Expanded exact percentage adjudication across all ten profiles (19.030794ms)
+✔ All original manifest entries are identical; four additions supply 24 transparent masked frames (6.250324ms)
+✔ Fourteen synchronized HTTP matches cover each new champion in both seats, old/new, new/new and mirrors (4578.799764ms)
+✔ Two independent HTTP clients complete synchronized first-to-three and rematch (356.750962ms)
+✔ R24 identical accepted command receipt consumes RNG/token once; conflicts rejected (5.429124ms)
+✔ Secrecy: opponent champion, sealed reroll and token spending absent from wire views (2.922862ms)
+✔ Authority rejects stale, wrong match/seat/room, payload score/roll injection (1.661147ms)
+✔ Reconnect preserves exact hidden state in selection, weapon, Command and resolution (5.94321ms)
+✔ 60-second grace from first disconnect; no scoring on abandonment (0.600687ms)
+✔ Replacement invalidates previous connection; room code is not a seat token (1.686986ms)
+✔ Expired pre-match/terminal rooms and service restart return clear ROOM_GONE (0.492403ms)
+✔ Full synchronized match, mutual rematch, fresh ID and resources, ambiguous final retry (48.751431ms)
+✔ R25 real two-bout Command expenditure persists into third bout (13.970235ms)
+✔ R01 private simultaneous selection, immutable champions, mirrors (4.219078ms)
+✔ R02 initiative tie and higher attacker (0.468868ms)
+✔ R03 natural 1, failure, hit, natural 6 (0.257959ms)
+✔ R04 reject normal blocking critical atomically (0.683441ms)
+✔ R05 critical Block removes exactly one normal or critical (0.911696ms)
+✔ R06 Brutal only permits critical Block (0.435327ms)
+✔ R07 Ceaseless same-face subsets; mixed rejected (0.787419ms)
+✔ R08 Balanced die cannot receive Command (4.687355ms)
+✔ R09 multi-die Command rejects before any roll or expenditure (0.88799ms)
+✔ R10 Rending promotes once after final rolls (0.710693ms)
+✔ R11 rerolling away only critical prevents Rending (0.395657ms)
+✔ R12 Lethal 5+ classifications (0.174473ms)
+✔ R13 Shock normal priority, critical fallback, once per bout (1.940759ms)
+✔ R14 Shock does not activate on critical Block (0.255225ms)
+✔ R15 empty attacker skips to defender and no empty turns (0.532333ms)
+✔ R16/R32 lethal strike ends immediately with one point, no retaliation (0.493705ms)
+✔ R17 percentage decision beats raw damage (0.107853ms)
+✔ R18 exact 50% or zero loss awards attacker (0.190948ms)
+✔ R19 bout resets wounds/flags but preserves match tokens (0.343709ms)
+✔ R20 stop immediately at 3:0 or 3:2 (0.926318ms)
+✔ R21 full frozen five-bout worked match: every row and intermediate wounds (7.848536ms)
+✔ R22 damage below half never reclassifies retained dice (0.267384ms)
+✔ R23 new second Command request cannot spend in same bout (0.506614ms)
+✔ R25 zero tokens cannot be replenished or spent (0.217177ms)
+✔ R26 free reroll + Command on another die (0.330088ms)
+✔ R27 pass preserves tokens and next-bout allowance (0.386843ms)
+✔ R28 same raw loss is not percentage tie (0.093271ms)
+✔ R29 different raw losses, same percentage: attacker (0.10552ms)
+✔ R30 exhaustive surviving states agree with independent BigInt rational oracle (11.346755ms)
+✔ R31 Command creating critical triggers Rending only after both lock (0.427726ms)
+✔ Deterministic local full match for each of all 100 champion pairs (not balance screening) (716.209105ms)
+✔ Actual browser transport module: two client instances, polling, full match and seat restore (1405.074992ms)
+ℹ tests 53
+ℹ suites 0
+ℹ pass 53
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4708.375645

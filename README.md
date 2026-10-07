@@ -1,15 +1,15 @@
 # Underhive Duel
 
-**Underhive Duel** is a fast two-player browser dice duel. Choose one of six original champions, lock hidden rerolls, strike or block, manage limited Command rerolls, and race to three bout wins.
+**Underhive Duel** is a fast two-player browser dice duel. Choose one of ten original champions, lock hidden rerolls, strike or block, manage limited Command rerolls, and race to three bout wins.
 
-The reviewed **Stage 3 public-alpha candidate is now imported into this repository**. The canonical gameplay authority is the Node server; the browser client does not resolve authoritative dice independently.
+This branch contains the **0.2.0 ten-champion release candidate**. The canonical gameplay authority is the Node server; the browser client does not resolve authoritative dice independently.
 
 ## Public-alpha architecture
 
 - two remote human players
 - room-code multiplayer
 - server-authoritative match state and RNG
-- six frozen champions
+- ten frozen champions (original six unchanged)
 - one Node service instance
 - in-memory live rooms for the MVP
 - no accounts, matchmaking, database, or persistence across server restarts
@@ -46,7 +46,7 @@ The included `render.yaml` encodes this topology.
 
 ## Current release gate
 
-The Stage 3 source package reports 48 automated tests passing. Repository CI additionally verifies:
+The 0.2.0 candidate passes 53 automated tests locally. See `docs/SUBMISSION_RELEASE_REVIEW.md` for current release evidence and remaining gates. Repository CI additionally verifies:
 
 - the Node test suite;
 - Playwright browser smoke/responsive checks;
@@ -54,7 +54,7 @@ The Stage 3 source package reports 48 automated tests passing. Repository CI add
 - container startup;
 - `/health` response.
 
-A real two-device smoke test remains required before calling the public alpha fully validated.
+Two isolated browser sessions and live deployed-commit verification remain required before the submission gate can pass. Browser emulation does not constitute physical-device testing.
 
 ## Open source
 

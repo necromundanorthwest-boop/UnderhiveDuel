@@ -1,0 +1,2649 @@
+{
+  "rulesVersion": "0.2.0",
+  "seed": 20261003,
+  "policy": "critical-first all-Strike; failed-die free rerolls; optional first untouched failure Command",
+  "samplesPerAttackerRole": 1000,
+  "pairs": 55,
+  "rows": [
+    {
+      "a": "bastion",
+      "b": "bastion",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 981,
+      "ooa": 1520,
+      "ties": 96,
+      "attackerWins": 1131,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 556,
+          "ooa": 759
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 425,
+          "ooa": 761
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "bastion",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1049,
+      "ooa": 1748,
+      "ties": 83,
+      "attackerWins": 1247,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 648,
+          "ooa": 872
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 401,
+          "ooa": 876
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "slagjaw",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1253,
+      "ooa": 1168,
+      "ties": 0,
+      "attackerWins": 1015,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 634,
+          "ooa": 592
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 619,
+          "ooa": 576
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "slagjaw",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1018,
+      "ooa": 1540,
+      "ties": 0,
+      "attackerWins": 994,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 506,
+          "ooa": 773
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 512,
+          "ooa": 767
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "vesper",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1735,
+      "ooa": 1733,
+      "ties": 0,
+      "attackerWins": 1041,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 888,
+          "ooa": 884
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 847,
+          "ooa": 849
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "vesper",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1839,
+      "ooa": 1912,
+      "ties": 0,
+      "attackerWins": 1005,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 922,
+          "ooa": 962
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 917,
+          "ooa": 950
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "guttermaw",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 904,
+      "ooa": 1542,
+      "ties": 83,
+      "attackerWins": 1190,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 547,
+          "ooa": 765
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 357,
+          "ooa": 777
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "guttermaw",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 878,
+      "ooa": 1751,
+      "ties": 58,
+      "attackerWins": 1246,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 562,
+          "ooa": 864
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 316,
+          "ooa": 887
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "rivet",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1394,
+      "ooa": 1474,
+      "ties": 0,
+      "attackerWins": 1010,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 702,
+          "ooa": 716
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 692,
+          "ooa": 758
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "rivet",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1428,
+      "ooa": 1771,
+      "ties": 0,
+      "attackerWins": 1088,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 758,
+          "ooa": 891
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 670,
+          "ooa": 880
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "cinder",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1261,
+      "ooa": 1584,
+      "ties": 0,
+      "attackerWins": 1181,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 721,
+          "ooa": 788
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 540,
+          "ooa": 796
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "cinder",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1166,
+      "ooa": 1794,
+      "ties": 0,
+      "attackerWins": 1304,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 735,
+          "ooa": 889
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 431,
+          "ooa": 905
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "shadowlurker",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1271,
+      "ooa": 1808,
+      "ties": 0,
+      "attackerWins": 1403,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 837,
+          "ooa": 895
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 434,
+          "ooa": 913
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "shadowlurker",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1247,
+      "ooa": 1931,
+      "ties": 0,
+      "attackerWins": 1537,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 892,
+          "ooa": 973
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 355,
+          "ooa": 958
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "votive",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1352,
+      "ooa": 1701,
+      "ties": 0,
+      "attackerWins": 1126,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 739,
+          "ooa": 849
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 613,
+          "ooa": 852
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "votive",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1429,
+      "ooa": 1853,
+      "ties": 0,
+      "attackerWins": 1161,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 795,
+          "ooa": 929
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 634,
+          "ooa": 924
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "pitjack",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 844,
+      "ooa": 1485,
+      "ties": 0,
+      "attackerWins": 998,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 421,
+          "ooa": 756
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 423,
+          "ooa": 729
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "pitjack",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 795,
+      "ooa": 1650,
+      "ties": 0,
+      "attackerWins": 1047,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 421,
+          "ooa": 830
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 374,
+          "ooa": 820
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "ironhaul",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1262,
+      "ooa": 1121,
+      "ties": 0,
+      "attackerWins": 1028,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 645,
+          "ooa": 550
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 617,
+          "ooa": 571
+        }
+      ]
+    },
+    {
+      "a": "bastion",
+      "b": "ironhaul",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1144,
+      "ooa": 1492,
+      "ties": 0,
+      "attackerWins": 1120,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 632,
+          "ooa": 743
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 512,
+          "ooa": 749
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "slagjaw",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 993,
+      "ooa": 487,
+      "ties": 220,
+      "attackerWins": 1133,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 563,
+          "ooa": 244
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 430,
+          "ooa": 243
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "slagjaw",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1015,
+      "ooa": 935,
+      "ties": 176,
+      "attackerWins": 1125,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 570,
+          "ooa": 451
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 445,
+          "ooa": 484
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "vesper",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1175,
+      "ooa": 908,
+      "ties": 0,
+      "attackerWins": 1011,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 593,
+          "ooa": 452
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 582,
+          "ooa": 456
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "vesper",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1297,
+      "ooa": 1421,
+      "ties": 2,
+      "attackerWins": 991,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 644,
+          "ooa": 702
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 653,
+          "ooa": 719
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "guttermaw",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 763,
+      "ooa": 1216,
+      "ties": 0,
+      "attackerWins": 1033,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 398,
+          "ooa": 609
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 365,
+          "ooa": 607
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "guttermaw",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 950,
+      "ooa": 1511,
+      "ties": 0,
+      "attackerWins": 1008,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 479,
+          "ooa": 774
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 471,
+          "ooa": 737
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "rivet",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 911,
+      "ooa": 810,
+      "ties": 22,
+      "attackerWins": 1003,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 457,
+          "ooa": 405
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 454,
+          "ooa": 405
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "rivet",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 968,
+      "ooa": 1382,
+      "ties": 6,
+      "attackerWins": 990,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 479,
+          "ooa": 690
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 489,
+          "ooa": 692
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "cinder",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1062,
+      "ooa": 783,
+      "ties": 2,
+      "attackerWins": 1000,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 531,
+          "ooa": 388
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 531,
+          "ooa": 395
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "cinder",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1153,
+      "ooa": 1255,
+      "ties": 1,
+      "attackerWins": 1005,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 579,
+          "ooa": 638
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 574,
+          "ooa": 617
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "shadowlurker",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 963,
+      "ooa": 1179,
+      "ties": 0,
+      "attackerWins": 1055,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 509,
+          "ooa": 598
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 454,
+          "ooa": 581
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "shadowlurker",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1097,
+      "ooa": 1559,
+      "ties": 0,
+      "attackerWins": 1107,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 602,
+          "ooa": 771
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 495,
+          "ooa": 788
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "votive",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 814,
+      "ooa": 1071,
+      "ties": 0,
+      "attackerWins": 1000,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 407,
+          "ooa": 504
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 407,
+          "ooa": 567
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "votive",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 981,
+      "ooa": 1386,
+      "ties": 0,
+      "attackerWins": 1019,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 500,
+          "ooa": 719
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 481,
+          "ooa": 667
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "pitjack",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 747,
+      "ooa": 801,
+      "ties": 2,
+      "attackerWins": 985,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 366,
+          "ooa": 407
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 381,
+          "ooa": 394
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "pitjack",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 842,
+      "ooa": 1158,
+      "ties": 0,
+      "attackerWins": 1054,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 448,
+          "ooa": 580
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 394,
+          "ooa": 578
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "ironhaul",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 921,
+      "ooa": 389,
+      "ties": 64,
+      "attackerWins": 1009,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 465,
+          "ooa": 188
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 456,
+          "ooa": 201
+        }
+      ]
+    },
+    {
+      "a": "slagjaw",
+      "b": "ironhaul",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 949,
+      "ooa": 744,
+      "ties": 76,
+      "attackerWins": 1067,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 508,
+          "ooa": 370
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 441,
+          "ooa": 374
+        }
+      ]
+    },
+    {
+      "a": "vesper",
+      "b": "vesper",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1004,
+      "ooa": 1710,
+      "ties": 62,
+      "attackerWins": 1284,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 644,
+          "ooa": 855
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 360,
+          "ooa": 855
+        }
+      ]
+    },
+    {
+      "a": "vesper",
+      "b": "vesper",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1024,
+      "ooa": 1926,
+      "ties": 21,
+      "attackerWins": 1412,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 718,
+          "ooa": 975
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 306,
+          "ooa": 951
+        }
+      ]
+    },
+    {
+      "a": "vesper",
+      "b": "guttermaw",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 273,
+      "ooa": 1735,
+      "ties": 0,
+      "attackerWins": 977,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 125,
+          "ooa": 879
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 148,
+          "ooa": 856
+        }
+      ]
+    },
+    {
+      "a": "vesper",
+      "b": "guttermaw",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 207,
+      "ooa": 1894,
+      "ties": 0,
+      "attackerWins": 1001,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 104,
+          "ooa": 949
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 103,
+          "ooa": 945
+        }
+      ]
+    },
+    {
+      "a": "vesper",
+      "b": "rivet",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 683,
+      "ooa": 1507,
+      "ties": 0,
+      "attackerWins": 1077,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 380,
+          "ooa": 731
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 303,
+          "ooa": 776
+        }
+      ]
+    },
+    {
+      "a": "vesper",
+      "b": "rivet",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 575,
+      "ooa": 1830,
+      "ties": 0,
+      "attackerWins": 1203,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 389,
+          "ooa": 922
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 186,
+          "ooa": 908
+        }
+      ]
+    },
+    {
+      "a": "vesper",
+      "b": "cinder",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 754,
+      "ooa": 1456,
+      "ties": 0,
+      "attackerWins": 958,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 356,
+          "ooa": 742
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 398,
+          "ooa": 714
+        }
+      ]
+    },
+    {
+      "a": "vesper",
+      "b": "cinder",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 590,
+      "ooa": 1765,
+      "ties": 0,
+      "attackerWins": 972,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 281,
+          "ooa": 890
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 309,
+          "ooa": 875
+        }
+      ]
+    },
+    {
+      "a": "vesper",
+      "b": "shadowlurker",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 533,
+      "ooa": 1728,
+      "ties": 0,
+      "attackerWins": 1055,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 294,
+          "ooa": 856
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 239,
+          "ooa": 872
+        }
+      ]
+    },
+    {
+      "a": "vesper",
+      "b": "shadowlurker",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 479,
+      "ooa": 1903,
+      "ties": 0,
+      "attackerWins": 1107,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 293,
+          "ooa": 953
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 186,
+          "ooa": 950
+        }
+      ]
+    },
+    {
+      "a": "vesper",
+      "b": "votive",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 347,
+      "ooa": 1783,
+      "ties": 0,
+      "attackerWins": 1095,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 221,
+          "ooa": 876
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 126,
+          "ooa": 907
+        }
+      ]
+    },
+    {
+      "a": "vesper",
+      "b": "votive",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 319,
+      "ooa": 1914,
+      "ties": 0,
+      "attackerWins": 1143,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 231,
+          "ooa": 954
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 88,
+          "ooa": 960
+        }
+      ]
+    },
+    {
+      "a": "vesper",
+      "b": "pitjack",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 462,
+      "ooa": 1436,
+      "ties": 0,
+      "attackerWins": 990,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 226,
+          "ooa": 724
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 236,
+          "ooa": 712
+        }
+      ]
+    },
+    {
+      "a": "vesper",
+      "b": "pitjack",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 402,
+      "ooa": 1690,
+      "ties": 0,
+      "attackerWins": 996,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 199,
+          "ooa": 851
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 203,
+          "ooa": 839
+        }
+      ]
+    },
+    {
+      "a": "vesper",
+      "b": "ironhaul",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 650,
+      "ooa": 1082,
+      "ties": 1,
+      "attackerWins": 1024,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 337,
+          "ooa": 535
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 313,
+          "ooa": 547
+        }
+      ]
+    },
+    {
+      "a": "vesper",
+      "b": "ironhaul",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 526,
+      "ooa": 1525,
+      "ties": 0,
+      "attackerWins": 1004,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 265,
+          "ooa": 767
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 261,
+          "ooa": 758
+        }
+      ]
+    },
+    {
+      "a": "guttermaw",
+      "b": "guttermaw",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 976,
+      "ooa": 1566,
+      "ties": 77,
+      "attackerWins": 1180,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 578,
+          "ooa": 774
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 398,
+          "ooa": 792
+        }
+      ]
+    },
+    {
+      "a": "guttermaw",
+      "b": "guttermaw",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 987,
+      "ooa": 1795,
+      "ties": 47,
+      "attackerWins": 1271,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 629,
+          "ooa": 903
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 358,
+          "ooa": 892
+        }
+      ]
+    },
+    {
+      "a": "guttermaw",
+      "b": "rivet",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1323,
+      "ooa": 1406,
+      "ties": 0,
+      "attackerWins": 1083,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 703,
+          "ooa": 723
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 620,
+          "ooa": 683
+        }
+      ]
+    },
+    {
+      "a": "guttermaw",
+      "b": "rivet",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1400,
+      "ooa": 1754,
+      "ties": 1,
+      "attackerWins": 1098,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 749,
+          "ooa": 877
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 651,
+          "ooa": 877
+        }
+      ]
+    },
+    {
+      "a": "guttermaw",
+      "b": "cinder",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1350,
+      "ooa": 1624,
+      "ties": 0,
+      "attackerWins": 1244,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 797,
+          "ooa": 811
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 553,
+          "ooa": 813
+        }
+      ]
+    },
+    {
+      "a": "guttermaw",
+      "b": "cinder",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1246,
+      "ooa": 1805,
+      "ties": 0,
+      "attackerWins": 1332,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 789,
+          "ooa": 895
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 457,
+          "ooa": 910
+        }
+      ]
+    },
+    {
+      "a": "guttermaw",
+      "b": "shadowlurker",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1264,
+      "ooa": 1791,
+      "ties": 0,
+      "attackerWins": 1410,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 837,
+          "ooa": 891
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 427,
+          "ooa": 900
+        }
+      ]
+    },
+    {
+      "a": "guttermaw",
+      "b": "shadowlurker",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1208,
+      "ooa": 1900,
+      "ties": 0,
+      "attackerWins": 1502,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 855,
+          "ooa": 945
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 353,
+          "ooa": 955
+        }
+      ]
+    },
+    {
+      "a": "guttermaw",
+      "b": "votive",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1444,
+      "ooa": 1741,
+      "ties": 0,
+      "attackerWins": 1060,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 752,
+          "ooa": 869
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 692,
+          "ooa": 872
+        }
+      ]
+    },
+    {
+      "a": "guttermaw",
+      "b": "votive",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1506,
+      "ooa": 1870,
+      "ties": 0,
+      "attackerWins": 1142,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 824,
+          "ooa": 936
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 682,
+          "ooa": 934
+        }
+      ]
+    },
+    {
+      "a": "guttermaw",
+      "b": "pitjack",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 873,
+      "ooa": 1427,
+      "ties": 0,
+      "attackerWins": 1065,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 469,
+          "ooa": 710
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 404,
+          "ooa": 717
+        }
+      ]
+    },
+    {
+      "a": "guttermaw",
+      "b": "pitjack",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 788,
+      "ooa": 1690,
+      "ties": 0,
+      "attackerWins": 1092,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 440,
+          "ooa": 837
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 348,
+          "ooa": 853
+        }
+      ]
+    },
+    {
+      "a": "guttermaw",
+      "b": "ironhaul",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1272,
+      "ooa": 1114,
+      "ties": 0,
+      "attackerWins": 1044,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 658,
+          "ooa": 577
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 614,
+          "ooa": 537
+        }
+      ]
+    },
+    {
+      "a": "guttermaw",
+      "b": "ironhaul",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1095,
+      "ooa": 1481,
+      "ties": 0,
+      "attackerWins": 1097,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 596,
+          "ooa": 724
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 499,
+          "ooa": 757
+        }
+      ]
+    },
+    {
+      "a": "rivet",
+      "b": "rivet",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 962,
+      "ooa": 1330,
+      "ties": 156,
+      "attackerWins": 1224,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 593,
+          "ooa": 658
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 369,
+          "ooa": 672
+        }
+      ]
+    },
+    {
+      "a": "rivet",
+      "b": "rivet",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 976,
+      "ooa": 1740,
+      "ties": 65,
+      "attackerWins": 1350,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 663,
+          "ooa": 874
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 313,
+          "ooa": 866
+        }
+      ]
+    },
+    {
+      "a": "rivet",
+      "b": "cinder",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1133,
+      "ooa": 1330,
+      "ties": 1,
+      "attackerWins": 1055,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 594,
+          "ooa": 667
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 539,
+          "ooa": 663
+        }
+      ]
+    },
+    {
+      "a": "rivet",
+      "b": "cinder",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1120,
+      "ooa": 1721,
+      "ties": 0,
+      "attackerWins": 1142,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 631,
+          "ooa": 872
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 489,
+          "ooa": 849
+        }
+      ]
+    },
+    {
+      "a": "rivet",
+      "b": "shadowlurker",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 645,
+      "ooa": 1729,
+      "ties": 24,
+      "attackerWins": 985,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 315,
+          "ooa": 874
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 330,
+          "ooa": 855
+        }
+      ]
+    },
+    {
+      "a": "rivet",
+      "b": "shadowlurker",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 655,
+      "ooa": 1918,
+      "ties": 16,
+      "attackerWins": 999,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 327,
+          "ooa": 956
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 328,
+          "ooa": 962
+        }
+      ]
+    },
+    {
+      "a": "rivet",
+      "b": "votive",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 947,
+      "ooa": 1562,
+      "ties": 0,
+      "attackerWins": 1105,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 526,
+          "ooa": 784
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 421,
+          "ooa": 778
+        }
+      ]
+    },
+    {
+      "a": "rivet",
+      "b": "votive",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1076,
+      "ooa": 1860,
+      "ties": 0,
+      "attackerWins": 1234,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 655,
+          "ooa": 933
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 421,
+          "ooa": 927
+        }
+      ]
+    },
+    {
+      "a": "rivet",
+      "b": "pitjack",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 765,
+      "ooa": 1192,
+      "ties": 14,
+      "attackerWins": 1013,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 389,
+          "ooa": 582
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 376,
+          "ooa": 610
+        }
+      ]
+    },
+    {
+      "a": "rivet",
+      "b": "pitjack",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 764,
+      "ooa": 1563,
+      "ties": 4,
+      "attackerWins": 990,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 377,
+          "ooa": 786
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 387,
+          "ooa": 777
+        }
+      ]
+    },
+    {
+      "a": "rivet",
+      "b": "ironhaul",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1017,
+      "ooa": 947,
+      "ties": 164,
+      "attackerWins": 1063,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 540,
+          "ooa": 476
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 477,
+          "ooa": 471
+        }
+      ]
+    },
+    {
+      "a": "rivet",
+      "b": "ironhaul",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 902,
+      "ooa": 1471,
+      "ties": 76,
+      "attackerWins": 1060,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 481,
+          "ooa": 739
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 421,
+          "ooa": 732
+        }
+      ]
+    },
+    {
+      "a": "cinder",
+      "b": "cinder",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 944,
+      "ooa": 1318,
+      "ties": 143,
+      "attackerWins": 1228,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 586,
+          "ooa": 657
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 358,
+          "ooa": 661
+        }
+      ]
+    },
+    {
+      "a": "cinder",
+      "b": "cinder",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 979,
+      "ooa": 1609,
+      "ties": 86,
+      "attackerWins": 1303,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 641,
+          "ooa": 805
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 338,
+          "ooa": 804
+        }
+      ]
+    },
+    {
+      "a": "cinder",
+      "b": "shadowlurker",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 875,
+      "ooa": 1552,
+      "ties": 0,
+      "attackerWins": 1235,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 555,
+          "ooa": 796
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 320,
+          "ooa": 756
+        }
+      ]
+    },
+    {
+      "a": "cinder",
+      "b": "shadowlurker",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 978,
+      "ooa": 1810,
+      "ties": 0,
+      "attackerWins": 1400,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 689,
+          "ooa": 909
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 289,
+          "ooa": 901
+        }
+      ]
+    },
+    {
+      "a": "cinder",
+      "b": "votive",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 843,
+      "ooa": 1548,
+      "ties": 33,
+      "attackerWins": 1105,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 474,
+          "ooa": 772
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 369,
+          "ooa": 776
+        }
+      ]
+    },
+    {
+      "a": "cinder",
+      "b": "votive",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1016,
+      "ooa": 1768,
+      "ties": 23,
+      "attackerWins": 1166,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 591,
+          "ooa": 876
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 425,
+          "ooa": 892
+        }
+      ]
+    },
+    {
+      "a": "cinder",
+      "b": "pitjack",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 715,
+      "ooa": 1245,
+      "ties": 1,
+      "attackerWins": 1077,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 396,
+          "ooa": 643
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 319,
+          "ooa": 602
+        }
+      ]
+    },
+    {
+      "a": "cinder",
+      "b": "pitjack",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 691,
+      "ooa": 1512,
+      "ties": 0,
+      "attackerWins": 1121,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 406,
+          "ooa": 754
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 285,
+          "ooa": 758
+        }
+      ]
+    },
+    {
+      "a": "cinder",
+      "b": "ironhaul",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 884,
+      "ooa": 717,
+      "ties": 0,
+      "attackerWins": 1040,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 462,
+          "ooa": 339
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 422,
+          "ooa": 378
+        }
+      ]
+    },
+    {
+      "a": "cinder",
+      "b": "ironhaul",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 845,
+      "ooa": 1189,
+      "ties": 0,
+      "attackerWins": 1073,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 459,
+          "ooa": 587
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 386,
+          "ooa": 602
+        }
+      ]
+    },
+    {
+      "a": "shadowlurker",
+      "b": "shadowlurker",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 996,
+      "ooa": 1874,
+      "ties": 47,
+      "attackerWins": 1382,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 689,
+          "ooa": 935
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 307,
+          "ooa": 939
+        }
+      ]
+    },
+    {
+      "a": "shadowlurker",
+      "b": "shadowlurker",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 986,
+      "ooa": 1954,
+      "ties": 19,
+      "attackerWins": 1496,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 741,
+          "ooa": 973
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 245,
+          "ooa": 981
+        }
+      ]
+    },
+    {
+      "a": "shadowlurker",
+      "b": "votive",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1065,
+      "ooa": 1759,
+      "ties": 0,
+      "attackerWins": 1159,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 612,
+          "ooa": 874
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 453,
+          "ooa": 885
+        }
+      ]
+    },
+    {
+      "a": "shadowlurker",
+      "b": "votive",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1142,
+      "ooa": 1920,
+      "ties": 0,
+      "attackerWins": 1168,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 655,
+          "ooa": 963
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 487,
+          "ooa": 957
+        }
+      ]
+    },
+    {
+      "a": "shadowlurker",
+      "b": "pitjack",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 785,
+      "ooa": 1656,
+      "ties": 0,
+      "attackerWins": 1201,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 493,
+          "ooa": 822
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 292,
+          "ooa": 834
+        }
+      ]
+    },
+    {
+      "a": "shadowlurker",
+      "b": "pitjack",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 698,
+      "ooa": 1842,
+      "ties": 0,
+      "attackerWins": 1272,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 485,
+          "ooa": 930
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 213,
+          "ooa": 912
+        }
+      ]
+    },
+    {
+      "a": "shadowlurker",
+      "b": "ironhaul",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 932,
+      "ooa": 1288,
+      "ties": 114,
+      "attackerWins": 1090,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 511,
+          "ooa": 662
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 421,
+          "ooa": 626
+        }
+      ]
+    },
+    {
+      "a": "shadowlurker",
+      "b": "ironhaul",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 766,
+      "ooa": 1682,
+      "ties": 65,
+      "attackerWins": 1170,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 468,
+          "ooa": 850
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 298,
+          "ooa": 832
+        }
+      ]
+    },
+    {
+      "a": "votive",
+      "b": "votive",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1015,
+      "ooa": 1709,
+      "ties": 77,
+      "attackerWins": 1209,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 612,
+          "ooa": 854
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 403,
+          "ooa": 855
+        }
+      ]
+    },
+    {
+      "a": "votive",
+      "b": "votive",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 967,
+      "ooa": 1862,
+      "ties": 39,
+      "attackerWins": 1227,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 597,
+          "ooa": 934
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 370,
+          "ooa": 928
+        }
+      ]
+    },
+    {
+      "a": "votive",
+      "b": "pitjack",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 806,
+      "ooa": 1478,
+      "ties": 0,
+      "attackerWins": 974,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 390,
+          "ooa": 739
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 416,
+          "ooa": 739
+        }
+      ]
+    },
+    {
+      "a": "votive",
+      "b": "pitjack",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 743,
+      "ooa": 1659,
+      "ties": 0,
+      "attackerWins": 1053,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 398,
+          "ooa": 834
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 345,
+          "ooa": 825
+        }
+      ]
+    },
+    {
+      "a": "votive",
+      "b": "ironhaul",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1168,
+      "ooa": 958,
+      "ties": 1,
+      "attackerWins": 1012,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 590,
+          "ooa": 480
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 578,
+          "ooa": 478
+        }
+      ]
+    },
+    {
+      "a": "votive",
+      "b": "ironhaul",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 970,
+      "ooa": 1324,
+      "ties": 0,
+      "attackerWins": 1034,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 502,
+          "ooa": 658
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 468,
+          "ooa": 666
+        }
+      ]
+    },
+    {
+      "a": "pitjack",
+      "b": "pitjack",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1030,
+      "ooa": 1059,
+      "ties": 187,
+      "attackerWins": 1130,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 580,
+          "ooa": 520
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 450,
+          "ooa": 539
+        }
+      ]
+    },
+    {
+      "a": "pitjack",
+      "b": "pitjack",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 995,
+      "ooa": 1342,
+      "ties": 162,
+      "attackerWins": 1179,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 587,
+          "ooa": 672
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 408,
+          "ooa": 670
+        }
+      ]
+    },
+    {
+      "a": "pitjack",
+      "b": "ironhaul",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1183,
+      "ooa": 878,
+      "ties": 1,
+      "attackerWins": 1017,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 600,
+          "ooa": 445
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 583,
+          "ooa": 433
+        }
+      ]
+    },
+    {
+      "a": "pitjack",
+      "b": "ironhaul",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1118,
+      "ooa": 1257,
+      "ties": 0,
+      "attackerWins": 1058,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 588,
+          "ooa": 608
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 530,
+          "ooa": 649
+        }
+      ]
+    },
+    {
+      "a": "ironhaul",
+      "b": "ironhaul",
+      "command": false,
+      "bouts": 2000,
+      "winsA": 1028,
+      "ooa": 248,
+      "ties": 397,
+      "attackerWins": 1174,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 601,
+          "ooa": 126
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 427,
+          "ooa": 122
+        }
+      ]
+    },
+    {
+      "a": "ironhaul",
+      "b": "ironhaul",
+      "command": true,
+      "bouts": 2000,
+      "winsA": 1040,
+      "ooa": 483,
+      "ties": 382,
+      "attackerWins": 1200,
+      "roles": [
+        {
+          "attacker": 0,
+          "bouts": 1000,
+          "winsA": 620,
+          "ooa": 233
+        },
+        {
+          "attacker": 1,
+          "bouts": 1000,
+          "winsA": 420,
+          "ooa": 250
+        }
+      ]
+    }
+  ]
+}

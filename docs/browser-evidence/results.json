@@ -1,10 +1,12 @@
 {
   "status": "BLOCKED",
-  "started": "2026-10-04T01:25:40.281Z",
+  "started": "2026-10-07T05:46:53.730Z",
+  "sourceCommit": null,
+  "origin": "http://127.0.0.1:37623",
   "deviceType": "two isolated browser contexts, desktop and touch mobile emulation",
   "viewports": [],
   "matches": [],
   "errors": [
-    "browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝\n    at /workspace/sites/underhive-duel/scripts/browser-smoke.mjs:14:28"
+    "browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝\n    at /workspace/scratch/4bdbe55e06e1/recovered/repository/scripts/browser-smoke.mjs:14:28"
   ]
 }

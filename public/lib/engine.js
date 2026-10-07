@@ -1,5 +1,5 @@
-// Frozen authority: rules 0.1.0. Pure state transitions; injected D6 source.
-import { roster, rulesVersion } from './roster.js';
+// Combat mechanics frozen from 0.1.0; roster authority 0.2.0. Pure state transitions; injected D6 source.
+import { roster, rulesVersion, visualVersion } from './roster.js';
 export class RuleError extends Error { constructor(code,message){super(message);this.code=code;} }
 const requireRule=(ok,code,message)=>{if(!ok)throw new RuleError(code,message);};
 const copy=x=>structuredClone(x);
@@ -7,7 +7,7 @@ export function seededD6(seed=1){let x=seed>>>0;return ()=>{x=(Math.imul(x,16645
 export function scriptedD6(values){let i=0;const f=()=>{if(i>=values.length)throw Error('Fixture exhausted');return values[i++];};f.used=()=>i;return f;}
 export function classify(face,champion){const w=roster[champion].weapon;return face===1?'fail':face===6||(w.trait.id==='lethal'&&face>=w.trait.threshold)?'critical':face>=w.hitThreshold?'normal':'fail';}
 export function decision(players,attacker){const losses=players.map(p=>p.maxWounds-p.wounds);const products=[losses[0]*players[1].maxWounds,losses[1]*players[0].maxWounds];return {winner:products[0]===products[1]?attacker:products[0]<products[1]?0:1,reason:'DECISION',losses,starting:players.map(p=>p.maxWounds),products,exactTie:products[0]===products[1]};}
-export function newMatch(id='local-1'){return {id,rulesVersion,visualVersion:'0.1.0',version:0,phase:'CHAMPION_SELECT',bout:0,attacker:null,actor:null,players:[0,1].map(()=>({champion:null,wounds:0,maxWounds:0,score:0,tokens:2,commandUsed:false,shockUsed:false,dice:[]})),choices:[null,null],ready:[false,false],initiative:[],events:[],result:null};}
+export function newMatch(id='local-1'){return {id,rulesVersion,visualVersion,version:0,phase:'CHAMPION_SELECT',bout:0,attacker:null,actor:null,players:[0,1].map(()=>({champion:null,wounds:0,maxWounds:0,score:0,tokens:2,commandUsed:false,shockUsed:false,dice:[]})),choices:[null,null],ready:[false,false],initiative:[],events:[],result:null};}
 function emit(s,type,data={}){s.events.push({id:s.events.length+1,bout:s.bout,type,...data});}
 function roll(rng){const face=rng();if(!Number.isInteger(face)||face<1||face>6)throw Error('Invalid server D6 source');return face;}
 function initBout(s,rng){s.bout++;s.result=null;s.ready=[false,false];s.choices=[null,null];s.initiative=[];for(const p of s.players){p.maxWounds=roster[p.champion].wounds;p.wounds=p.maxWounds;p.commandUsed=false;p.shockUsed=false;p.dice=[];}
